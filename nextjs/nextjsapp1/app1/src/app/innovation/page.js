@@ -155,7 +155,7 @@ const innovation = () => {
                 <p>info@farmerlegacybiotech.com</p>
               </div>
               <div>
-              <p>info@farmerlegacybiotech.com</p>
+              <p>+1 (250) 891-6663</p>
               </div>
                   
                   

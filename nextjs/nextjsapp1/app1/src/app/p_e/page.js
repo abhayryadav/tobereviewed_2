@@ -179,7 +179,10 @@ const pe = () => {
               />
             <h2>Partners</h2>
                 <p>
-                We are looking for partners who share similar values as that of ours. We are looking for expertise in plant breeding, seed multiplication, and seed marketing. We will be connecting with various partners as per the life cycle of our company. We are committed to be transparent in dealing with our partners and share the created value as per contribution to value creation.
+                    Lab Partner : University of Calgary & National Research Council.<br></br> <br></br>
+                    Funding Partners: We are grateful to funding partners MITACS, Biotalent, IRAP, ERIN to provide non-dilutive grants of $250,000.<br></br> <br></br>
+                    Pankaj: We are looking for industry partners to commercialise Brahmola for various edible and  Industrial applications.
+
                 <br></br> <br></br>   
                 </p>
             </div>
@@ -190,7 +193,7 @@ const pe = () => {
               />
             <h2>Inversors</h2>
                 <p>
-                We are a company on a mission to better Canadian lives. We believe that we have the intellectual capability to sustain the test of time. We will strive hard to produce the best in market returns for our investors.The world is evolving, so does market dynamics. The change in market dynamics in agri-business negatively impacts.
+                We are looking for pre-seed investment in FLB to undertake field trials to receive Canadian Food Inspection Agency approval and develop further applications of Brahmola.
                 <br></br> <br></br>  
                 </p>
             </div>
@@ -215,7 +218,7 @@ const pe = () => {
                 <p>info@farmerlegacybiotech.com</p>
               </div>
               <div>
-              <p>info@farmerlegacybiotech.com</p>
+              <p>+1 (250) 891-6663</p>
               </div>
                   
                   

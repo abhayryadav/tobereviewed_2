@@ -196,7 +196,8 @@
     text-align: center;
   }
   .sec2{
-    height: 70vmin;
+    /* height: max-content; */
+    height: 80vmin;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -206,14 +207,15 @@
   }
   .inner1, .inner2 {
     border-radius: 2vmin;
+    /* position: relative; */
     position: absolute;
     margin: 2%;
-    background-color: rgb(91, 116, 92);
+    background-color: rgba(255, 255, 255, 0);
     width: 30vmin;
     align-items: center;
     justify-content: center;
     transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Smooth transition for height and opacity */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.179);
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.179); */
     text-align: start;
     padding: 2vmin;
     overflow: hidden; 
@@ -231,13 +233,14 @@
   
   .inner1 h2, .inner2 h2 {
     padding-top: 3vmin;
-    color: rgb(224, 224, 224);
+    color: rgb(1, 63, 1);
+    font-weight: 200;
     text-align: center;
     padding-bottom: 2vmin;
   }
   
   .inner1 p, .inner2 p {
-    color: rgb(255, 255, 255);
+    color: rgb(92, 92, 92);
     font-size: 1.5vh;
     opacity: 0; /* Initially hidden */
     transition: opacity 0.3s ease-in-out; /* Fade in content */
@@ -255,10 +258,11 @@
   }
   
   .btnn {
-    background-color: rgb(8, 56, 20);
+    background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
-    color: white;
+    font-weight: 100;
+    color: rgb(2, 90, 21);
     cursor: pointer;
     padding: 1vmin;
   }

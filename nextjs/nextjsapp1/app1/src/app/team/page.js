@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import ms from "../../../public/images/ms.jpg";
 import conimg from "../../../public/images/conimg.png";
+import dmss from "../../../public/images/dmss.png";
 import "./team.css";
 import Enquiry from "../enq/enquiry";
 
@@ -76,7 +77,7 @@ const Team = () => {
 
 <section className="sec2">
       <div className={`inner1 ${showMore1 ? 'expanded' : ''}`}>
-        <Image className="im" src={ms} />
+        <Image className="im" src={dmss} />
         <h2>Dr. Marcus Samuel</h2>
         {showMore1 ? (
           <p>
