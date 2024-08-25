@@ -271,8 +271,8 @@ section{
     /* margin-bottom: 20px; */
 }
 
-/* mobile */
-@media only screen and (max-width:850px){
+
+/* @media only screen and (max-width:850px){
     .navbar{
         padding: 0;
     
@@ -310,6 +310,13 @@ section{
         position: absolute;
         display: block;
     }
+    .navbar ul {
+       
+      margin-top: 32vh;
+      flex-direction: column;
+      padding: 0;
+      align-items: center;
+  }
 }
 
 
@@ -324,7 +331,7 @@ section{
 
 
 
-
+ */
 
 
 
@@ -353,7 +360,7 @@ section{
   
     .navbar ul {
        
-        margin-top: 36vh;
+        margin-top: 45vh;
         flex-direction: column;
         padding: 0;
         align-items: center;
@@ -382,7 +389,7 @@ section{
       margin: 10px 0;
     }
     .title{
-        margin-top: 450px;
+        margin-top: 70vh;
     }
     .title h1 {
       font-size: 5vmin;
@@ -460,7 +467,7 @@ section{
 
     .navbar ul {
        
-        margin-top: 390px;
+        margin-top: 60vh;
         flex-direction: column;
         padding: 0;
         align-items: center;

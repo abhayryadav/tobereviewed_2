@@ -102,7 +102,7 @@ const About2 = () => {
         </div>
 
         <section className="hed12">
-            <p style={{color:"rgb(66,66,66)"}}>Canadian Legacy Biotech believes in developing technology for Planet, People, & Profit. We excel by challenging ourselves and by promoting human curiosity.</p>
+            <p style={{color:"rgb(66,66,66)"}}>Farmer Legacy Biotech believes in developing technology for Planet, People, & Profit. We excel by challenging ourselves and by promoting human curiosity.</p>
         </section>
 
 

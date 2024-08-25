@@ -346,7 +346,7 @@ body {
   }
 
   .ulhometopi {
-    margin-top: 280px;
+    margin-top: 50vh;
     flex-direction: column;
     align-items: center;
   }
@@ -374,7 +374,7 @@ body {
   }
 
   .sec11 {
-    margin-top: 420px;
+    margin-top: 90vh;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -424,7 +424,7 @@ body {
   }
 
   .ulhometopi {
-    margin-top: 280px;
+    margin-top: 40vh;
     flex-direction: column;
     align-items: center;
   }
