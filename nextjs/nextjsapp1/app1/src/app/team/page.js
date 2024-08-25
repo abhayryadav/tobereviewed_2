@@ -38,7 +38,7 @@ const Team = () => {
               </button>
             </li>
             <li>
-              <button className="btonhome" onClick={() => router.push("/About2")}>
+              <button className="btonhome" onClick={() => router.push("../About2")}>
                 About
               </button>
             </li>

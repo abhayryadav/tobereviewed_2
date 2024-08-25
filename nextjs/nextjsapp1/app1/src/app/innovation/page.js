@@ -54,7 +54,7 @@ const Innovation = () => {
               <li>
                 <button
                   className="btonhome"
-                  onClick={() => router.push("/About2")}
+                  onClick={() => router.push("../About2")}
                 >
                   About
                 </button>
