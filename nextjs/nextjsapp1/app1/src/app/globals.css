@@ -1154,6 +1154,10 @@ margin-top: 10px;
   .searchinput {
     width: 80%; /* Reduce width */
   }
+  .roww{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Media Query for Tablets (768px to 1024px) */
