@@ -374,7 +374,7 @@
 
 
 
-
+/* 
 
 @media screen and (max-width: 767px)  {
   .divhomemain {
@@ -391,7 +391,7 @@
   }
 
   .ulhometopt li {
-    width: 100%; /* Two items per row */
+    width: 100%; 
     text-align: center;
     margin-bottom: 10px;
   }
@@ -418,50 +418,8 @@
       font-size: 1.5rem;
   }
 }
+ */
 
-
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .divhomemain {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .ulhometopt {
-    margin-top: 50vh;
-    flex-direction: column;
-    padding: 0;
-    align-items: center;
-  }
-
-  .ulhometopt li {
-    width: 100%; /* Two items per row */
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  .sec2{
-    margin-top: 70vh;
-    background-color: whitesmoke;
-    margin-top: 330px;
-  }
-  .inner1, .inner2 {
-      width: 30%;
-
-  }
-  .inner1{
-    left: 10%;
-  }
-  .inner2{
-    right: 10%;
-  }
-  .im {
-      height: 25vmin;
-  }
-
-  .ppps {
-      font-size: 1.5rem;
-  }
-}
 
 /* For mobile devices (up to 767px) */
 @media (max-width: 767px) {
@@ -472,7 +430,7 @@
   }
 
   .ulhometopt {
-    margin-top: 200px;
+    margin-top: 40vh;
     flex-direction: column;
     padding: 0;
     align-items: center;
@@ -485,7 +443,7 @@
   }
   .sec2{
     background-color: whitesmoke;
-    margin-top: 330px;
+    margin-top: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -494,18 +452,30 @@
     
   }
   .inner1, .inner2 {
-      width: 30%;
+      width: fit-content;
       position:unset;
       height: fit-content;
       padding-bottom: 5%;
 
   }
   .inner1.expanded {
-    max-height: fit-content; /* Set this high enough to accommodate the expanded content */
+    max-height: fit-content;
   }
   .inner2.expanded {
     max-height: fit-content; 
   }
+  .inner1.expanded p{
+    width: 40vw;
+  }
+  .inner2.expanded p{
+    width: 40vw;
+  }
+  .im {
+    border-radius: 50%;
+    width: 100%;
+    height: auto; /* Let the height adjust according to the width */
+    max-width: 30vmin; /* Optional: set a max width */
+}
 
   .introheaders {
       height: 40vh;
@@ -544,4 +514,60 @@
     padding-right: 20vmin;
     font-size: 20px;
 }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .divhomemain {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .ulhometopt {
+    margin-top: 50vh;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  .im {
+    border-radius: 50%;
+    width: 100%;
+    height: auto; /* Let the height adjust according to the width */
+    max-width: 30vmin; /* Optional: set a max width */
+}
+  .ulhometopt li {
+    width: 100%; /* Two items per row */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .sec2{
+    margin-top: 70vh;
+    background-color: whitesmoke;
+    margin-top: 330px;
+  }
+  .inner1, .inner2 {
+      width: 30%;
+
+  }
+  .inner1{
+    left: 10%;
+  }
+  .inner2{
+    right: 10%;
+  }
+  .im {
+      height: 25vmin;
+  }
+
+  .ppps {
+      font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* .im {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-width: 30vmin; 
+} */
 }
