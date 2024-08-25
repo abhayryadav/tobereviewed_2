@@ -55,7 +55,7 @@ const Pe = () => {
               <li>
                 <button
                   className="btonhome"
-                  onClick={() => router.push("../About2")}
+                  onClick={() => router.push("../about2")}
                 >
                   About
                 </button>
