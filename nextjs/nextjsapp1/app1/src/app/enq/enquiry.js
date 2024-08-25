@@ -1,8 +1,5 @@
 "use client";
 import { useState } from "react";
-import hidbeforloginsign from "../privatecomponentviaHOC/privcomphoc";
-import cardimg from "../../../public/images/cardimg.jpg";
-import Image from "next/image";
 import TextField from "@mui/material/TextField";
 
 //import like down here when ---------x
@@ -14,12 +11,6 @@ import TextField from "@mui/material/TextField";
 // export {hidbeforloginsign,x}
 
 import { useRouter } from "next/navigation";
-import { usePathname } from "next/navigation";
-import leadership from "../../../public/images/leadership.png"
-import empathy from "../../../public/images/Empathy.webp"
-import ard from "../../../public/images/ard.webp"
-import pers from "../../../public/images/pers.webp"
-import Link from "next/link";
 import "./enq.css";
 
 const Enquiry = () => {

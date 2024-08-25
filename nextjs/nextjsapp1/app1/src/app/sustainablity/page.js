@@ -1,25 +1,14 @@
 "use client";
-import { useState } from "react";
-import hidbeforloginsign from "../privatecomponentviaHOC/privcomphoc";
-import cardimg from "../../../public/images/cardimg.jpg";
 import Image from "next/image";
 
 import { useRouter } from "next/navigation";
-import { usePathname } from "next/navigation";
-import leadership from "../../../public/images/leadership.png"
-import empathy from "../../../public/images/Empathy.webp"
-import ard from "../../../public/images/ard.webp"
-import pers from "../../../public/images/pers.webp"
-import Link from "next/link";
-import pe from "../../../public/images/pe.jpg"
-import oa from '../../../public/images/oa.jpg'
 import cf from "../../../public/images/cf.jpg"
 import hc from "../../../public/images/hc.jpg"
 import hg from "../../../public/images/hg.jpg"
 import "./sus.css";
 import Enquiry from "../enq/enquiry";
 
-const sustainablity = () => {
+const Sustainablity = () => {
     const router = useRouter();
     return(
         <div className="main">
@@ -54,7 +43,7 @@ const sustainablity = () => {
               <li>
                 <button
                   className="btonhome"
-                  onClick={() => router.push("/about2")}
+                  onClick={() => router.push("/About2")}
                 >
                   About
                 </button>
@@ -125,10 +114,11 @@ const sustainablity = () => {
               <Image 
               className="imss"
                 src={cf}
+                alt="Leadership illustration"
               />
                 <h2>Impact on Canadian Farmers</h2>
                 <p>
-                Farmer’s harvest cycle depends on the rotation of the crop, and few plants impact the health of other crops and the farm. We are committed to help strike the right balance between different crops so that resources used in farming are optimized. We recognize global climate change and are committed to developing products that help meet Paris climate agreement goals.
+                Farmer&apos;s harvest cycle depends on the rotation of the crop, and few plants impact the health of other crops and the farm. We are committed to help strike the right balance between different crops so that resources used in farming are optimized. We recognize global climate change and are committed to developing products that help meet Paris climate agreement goals.
                 <br></br> <br></br>  
                 </p>
             </div>
@@ -136,6 +126,7 @@ const sustainablity = () => {
               <Image 
               className="imss"
               src={hc}
+              alt="Leadership illustration"
               />
             <h2>Impact on Consumers</h2>
                 <p>
@@ -147,6 +138,7 @@ const sustainablity = () => {
               <Image 
               className="imss"
                 src={hg}
+                alt="Leadership illustration"
               />
                 <h2>Impact on Forthcoming Generations</h2>
                 <p>
@@ -189,7 +181,7 @@ const sustainablity = () => {
 </div> 
     )
 }  
-export default sustainablity;
+export default Sustainablity;
 
 
 

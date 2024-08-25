@@ -31,7 +31,7 @@
     list-style: none;
   }
 
-  .ulhometop {
+  .ulhometopt {
     margin-top: 10px;
     margin-left: 0px;
     padding-right: 20px;
@@ -39,12 +39,11 @@
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
-  
+    flex-wrap: wrap; 
     height: fit-content;
   }
   
-  .ulhometop li {
+  .ulhometopt li {
     /* Optional: Define width or max-width to ensure items are responsive */
     flex: 1 1 auto; /* Allows items to grow and shrink as needed */
     min-width: 100px; /* Adjust as needed */
@@ -52,15 +51,15 @@
   }
   
   /* Media queries for different screen sizes */
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .ulhometop {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+        flex-direction: column; 
     }
   
     .ulhometop li {
-        width: 100%; /* Full width for each item on smaller screens */
+        width: 100%; 
     }
-  }
+  } */
   .divhome2{
     /* margin-top: 10px; */
     margin-left: 0px;
@@ -176,17 +175,39 @@
     animation-delay: 20s; 
   } */
   
-  .hed14{
+  .hed144{
     color: rgb(66, 66, 66);
     text-align: center;
   }
-  .hed14 p{
-    font-size: 30px;
+  .hed144 h2{
+    font-size: 25px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 40vmin;
     padding-right: 40vmin;
     padding-top: 10vmin;
+    padding-bottom: 4vmin;
+    font-weight: 10 ;
+  }
+  .hed145{
+    color: rgb(66, 66, 66);
+    text-align: center;
+  }
+  .hed145 h2{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 40vmin;
+    padding-right: 40vmin;
+    padding-top: 3vmin;
     padding-bottom: 10vmin;
+    font-weight: 10 ;
+  }
+  .hed145 h1{
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 40vmin;
+    padding-right: 40vmin;
+    padding-top: 10vmin;
+    font-weight: 10 ;
   }
   .sec1{
     display: flex;
@@ -343,4 +364,147 @@
 }
 .cprt{
   color:  rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .divhomemain {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .ulhometopt {
+    margin-top: 320px;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .ulhometopt li {
+    width: 100%; /* Two items per row */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .sec2{
+    background-color: whitesmoke;
+    margin-top: 330px;
+  }
+  .inner1, .inner2 {
+      width: 30%;
+
+  }
+  .inner1{
+    left: 10%;
+  }
+  .inner2{
+    right: 10%;
+  }
+  .im {
+      height: 25vmin;
+  }
+
+  .ppps {
+      font-size: 1.5rem;
+  }
+}
+
+/* For mobile devices (up to 767px) */
+@media (max-width: 767px) {
+  .divhomemain {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;
+  }
+
+  .ulhometopt {
+    margin-top: 200px;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .ulhometopt li {
+    width: 100%; /* Two items per row */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .sec2{
+    background-color: whitesmoke;
+    margin-top: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    height:fit-content;
+    
+  }
+  .inner1, .inner2 {
+      width: 30%;
+      position:unset;
+      height: fit-content;
+      padding-bottom: 5%;
+
+  }
+  .inner1.expanded {
+    max-height: fit-content; /* Set this high enough to accommodate the expanded content */
+  }
+  .inner2.expanded {
+    max-height: fit-content; 
+  }
+
+  .introheaders {
+      height: 40vh;
+  }
+
+  .cardds {
+      width: 90%;
+  }
+
+  .ppps {
+      font-size: 1rem;
+      width: 90%;
+  }
+
+  .im {
+      height: 20vmin;
+  }
+
+  .roww {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .colll1, .colll2, .colll3 {
+      width: 90%;
+      text-align: center;
+  }
+
+  .hed144 h2 {
+      padding-left: 20vmin;
+      padding-right: 20vmin;
+      font-size: 20px;
+  }
+  .hed145 h2 {
+    padding-left: 20vmin;
+    padding-right: 20vmin;
+    font-size: 20px;
+}
 }

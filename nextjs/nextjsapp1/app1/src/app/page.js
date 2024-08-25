@@ -2,17 +2,14 @@
 "use client";
 //import hidbeforloginsign from "./privatecomponentviaHOC/privcomphoc";
 import { useEffect, useState } from "react";
-import TextField from "@mui/material/TextField";
-import cardimg from "../../public/images/cardimg.jpg";
 import { useRouter } from "next/navigation";
 import Image from "next/image";//for image optimization
 import crophome from "../../public/images/crophome.jpg"
 import pe from "../../public/images/pe.jpg"
-import oa from '../../public/images/oa.jpg'
+
 import cf from "../../public/images/cf.jpg"
 import hc from "../../public/images/hc.jpg"
-import ovalues from "../../public/images/ovalues.png"
-
+import './globals.css'
 import hg from "../../public/images/hg.jpg"
 //import Loader from './loading'; 
 import CircularIndeterminate from './loading';
@@ -150,14 +147,6 @@ export default function Home() {
       setLoading(false);
     }
     
-  
-   
-
-
-
-
-
-
   },[]);
 
   
@@ -198,7 +187,7 @@ export default function Home() {
               <li>
                 <button
                   className="btonhome"
-                  onClick={() => router.push("/about2")}
+                  onClick={() => router.push("/About2")}
                 >
                   About
                 </button>
@@ -273,7 +262,7 @@ export default function Home() {
               <div className="cardcontenthome1">
                 <h3>Our Aim</h3>
                 <p>New challenges and using novel technologies</p>
-                <button onClick={()=>{router.push("/about2")}}> know more</button>
+                <button onClick={()=>{router.push(`/about2`)}}> know more</button>
                 
               </div>
             </div>
@@ -282,10 +271,10 @@ export default function Home() {
               <div className="cardcontenthome2">
                 <h3> Our Purpose</h3>
                 <p>
-                  At Farmer’s Legacy Biotech, we are excited about the limitless
-                  possibility...
+                  At Farmer&apos;s Legacy Biotech, we are excited about the limitless
+                  possibilities
                 </p>
-                <button onClick={()=>{router.push("/about2")}}> know more</button>
+                <button onClick={()=>{router.push(`/about2`)}}> know more</button>
                
               </div>
             </div>
@@ -294,7 +283,7 @@ export default function Home() {
               <div className="cardcontenthome3">
                 <h3> Our Values</h3>
                 <p>Our values define our actions, and we lead by LEAP.</p>
-                <button onClick={()=>{router.push("/about2")}}> know more</button>
+                <button onClick={()=>{router.push(`/about2`)}}> know more</button>
                 
               </div>
             </div>
@@ -311,10 +300,11 @@ export default function Home() {
                 <Image
                   src={cf}
                   style={{ width: "100%", height: "auto" }}
+                  alt="Leadership illustration"
                 ></Image>
                 <div className="sustainablitycardcontenthome">
                   <h3 > Impact on Canadian Farmers</h3>
-                  <p>Farmer’s harvest cycle depends on the rotation of the crop, and few plants impact the health of other crops and the farm.</p>
+                  <p>Farmer&apos;s harvest cycle depends on the rotation of the crop, and few plants impact the health of other crops and the farm.</p>
                   <a href="/sustainablity" className="btn">
                     {" "}
                     Read More
@@ -325,6 +315,7 @@ export default function Home() {
                 <Image
                   src={hc}
                   style={{ width: "100%", height: "auto" }}
+                  alt="Leadership illustration"
                 ></Image>
                 <div className="sustainablitycardcontenthome">
                   <h3 > Impact on Consumers</h3>
@@ -339,6 +330,7 @@ export default function Home() {
                 <Image
                   src={hg}
                   style={{ width: "100%", height: "auto" }}
+                  alt="Leadership illustration"
                 ></Image>
                 <div className="sustainablitycardcontenthome">
                   <h3 > Impact on forthcoming generations</h3>
@@ -357,7 +349,7 @@ export default function Home() {
             <div className="rowhome">
               <div className="cardcontainerourproductshome">
                 <div className="colhome">
-                  <Image src={crophome} className="crophome"></Image>
+                  <Image src={crophome} className="crophome" alt="Leadership illustration"></Image>
                 </div>
                 <div className="colhome2">
                   <div>
@@ -382,7 +374,7 @@ export default function Home() {
             <div className="rowhome">
               <div className="cardcontainerourproductshome">
                 <div className="colhome">
-                  <Image src={pe} className="crophome2"></Image>
+                  <Image src={pe} className="crophome2" alt="Leadership illustration"></Image>
                 </div>
                 <div className="colhome2">
                 <div>

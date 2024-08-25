@@ -3,7 +3,7 @@ export default function notfound() {
     <div>
       <center>
         <div className="nf">
-          <h1 className="nf">Page Doesen't exist</h1>
+          <h1 className="nf">Page Doesen&rsquo;t exist</h1>
           <div className="line">
 
           </div>

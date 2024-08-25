@@ -30,17 +30,7 @@
     float: left;
     list-style: none;
   }
-  /* .ulhometop{
-      margin-top: 10px;
-      margin-left: 0px;
-      padding-right: 20px;
-      list-style-type: none;
-      margin-bottom: 20px;
-      display:flex;
-      flex-direction: row;
-      height: fit-content;
-    
-  } */
+
   .ulhometop {
     margin-top: 10px;
     margin-left: 0px;
@@ -329,3 +319,27 @@
     padding-top: 1vmin; /* Reset padding */
     text-align: start;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+

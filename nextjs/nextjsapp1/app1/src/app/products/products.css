@@ -311,3 +311,210 @@ section{
         display: block;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Devices (Max Width: 850px) */
+@media only screen and (max-width: 768px) {
+    .navbar {
+      padding: 0;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .divhome2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar ul {
+       
+        margin-top: 36vh;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+  
+    .navbar li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .header {
+      height: auto;
+      background-size: cover;
+      padding: 20px 0;
+    }
+  
+
+  
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col {
+      width: 90%;
+      margin: 10px 0;
+    }
+    .title{
+        margin-top: 450px;
+    }
+    .title h1 {
+      font-size: 5vmin;
+    }
+    .headercontent{
+        margin-top: 50px;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .headercontent h2{
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .headerproddata{
+        margin-top: 20px;
+        width: 80vw;
+    }
+    .headerproddata p{
+        margin-top: 0px;
+        width: 70vw;
+    }
+    .enquirybtn {
+      width: 80%;
+      padding: 15px;
+      font-size: 18px;
+    }
+    
+    .menubtn {
+      top: 10px;
+      right: 10px;
+      width: 35px;
+      height: 35px;
+      display: block;
+    }
+  
+    .info {
+      padding: 20px;
+    }
+  
+    .roww {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .colll1, .colll3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .linee {
+      margin: 10px 0;
+    }
+  
+    .copyright {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  /* Tablet Devices (Max Width: 1200px) */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+      padding: 10px;
+      flex-direction: column;
+      align-items: center;
+    }
+    .divhome2 h2{
+        text-align: center;
+    }
+  
+
+    .navbar ul {
+       
+        margin-top: 390px;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+  
+    .navbar li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .header {
+      height: 70vh;
+    }
+  
+    .headercontent h2 {
+      font-size: 3vmin;
+    }
+  
+    .headerproddata {
+      width: 60vw;
+    }
+  
+    .row {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .col {
+      width: 45%;
+    }
+    .title{
+        margin-top: 450px;
+    }
+    .title h1 {
+      font-size: 6vmin;
+    }
+  
+    .enquirybtn {
+      width: 60%;
+      padding: 18px;
+      font-size: 19px;
+    }
+  
+    .info {
+      padding: 30px;
+    }
+  
+    .roww {
+      justify-content: space-between;
+    }
+  
+    .colll1, .colll3 {
+      width: 48%;
+      text-align: left;
+    }
+  }
+  

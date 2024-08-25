@@ -13,9 +13,10 @@
     "@emotion/styled": "^11.11.5",
     "@mui/material": "^5.15.21",
     "dynamic": "^4.2.2",
-    "next": "^14.2.0-canary.52",
+    "next": "^14.2.6",
     "react": "^18.0",
-    "react-dom": "^18.0"
+    "react-dom": "^18.0",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "eslint": "^8",

@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import ms from "../../../public/images/ms.jpg";
 import conimg from "../../../public/images/conimg.png";
 import dmss from "../../../public/images/dmss.png";
 import "./team.css";
@@ -32,14 +31,14 @@ const Team = () => {
             Farmer Legacy  Biotech
             </p>
           </div>
-          <ul className="ulhometop">
+          <ul className="ulhometopt">
             <li>
               <button className="btonhome" onClick={() => router.push("/")}>
                 Home
               </button>
             </li>
             <li>
-              <button className="btonhome" onClick={() => router.push("/about2")}>
+              <button className="btonhome" onClick={() => router.push("/About2")}>
                 About
               </button>
             </li>
@@ -48,6 +47,14 @@ const Team = () => {
                 Products
               </button>
             </li>
+            <li>
+                  <button
+                    className="btonhome"
+                    onClick={() => router.push(`../sustainablity`)}
+                  >
+                    Sustainablity
+                  </button>
+                </li>
             <li>
               <button className="btonhome" onClick={() => router.push(`../innovation`)}>
                 Innovation
@@ -69,19 +76,15 @@ const Team = () => {
         </div>
       </div>
 
-      {/* <section className="hed14">
-        <p style={{ color: "rgb(66, 66, 66)" }}>
-          Canadian Legacy Biotech believes in developing technology for Planet, People, & Profit. We excel by challenging ourselves and by promoting human curiosity.
-        </p>
-      </section> */}
+     
 
 <section className="sec2">
-      <div className={`inner1 ${showMore1 ? 'expanded' : ''}`}>
-        <Image className="im" src={dmss} />
+      <div className={`inner1 ${showMore1 ? "expanded" : ""}`}>
+        <Image className="im" src={dmss} alt="Leadership illustration" />
         <h2>Dr. Marcus Samuel</h2>
         {showMore1 ? (
           <p>
-            Dr. Marcus Samuel is Professor in Department of Biological Sciences & Academic Director of the Greenhouse, at Integrative Cell Biology (Plant Biology), University of Calgary and CSO of AgGene. He is Co-founder and Partner with Farmer's Legacy Biotech. Dr. Samuel leads Plant Transformation and Partnership Development on Breeding side of FLB's Business.
+            Dr. Marcus Samuel is Professor in Department of Biological Sciences & Academic Director of the Greenhouse, at Integrative Cell Biology (Plant Biology), University of Calgary and CSO of AgGene. He is Co-founder and Partner with Farmer&apos;s Legacy Biotech. Dr. Samuel leads Plant Transformation and Partnership Development on Breeding side of FLB&apos;s Business.
             <br /> <br />
             <button className="btnn" onClick={toggleShowMore1}>Show Less</button>
           </p>
@@ -90,12 +93,12 @@ const Team = () => {
         )}
       </div>
 
-      <div className={`inner2 ${showMore2 ? 'expanded' : ''}`}>
-        <Image className="im" src={conimg} />
+      <div className={`inner2 ${showMore2 ? "expanded" : " "}`}>
+        <Image className="im" src={conimg} alt="Leadership illustration"/>
         <h2>Pankaj Purwar</h2>
         {showMore2 ? (
           <p>
-            Pankaj Purwar is co-founder and CEO of Farmer’s Legacy Biotech. Pankaj Purwar has completed Bachelor in Chemical Technology from Harcourt Butler Technological Institute and MBA in Entrepreneurship from University of Victoria. Pankaj has worked for 7 years in multinationals as Marico and Unilever in Process and Product Development. Pankaj leads technology commercialization, fund raising, partnerships and Business development initiative for Farmer’s Legacy Biotech.
+            Pankaj Purwar is co-founder and CEO of Farmer&rsquo;s Legacy Biotech. Pankaj Purwar has completed Bachelor in Chemical Technology from Harcourt Butler Technological Institute and MBA in Entrepreneurship from University of Victoria. Pankaj has worked for 7 years in multinationals as Marico and Unilever in Process and Product Development. Pankaj leads technology commercialization, fund raising, partnerships and Business development initiative for Farmer&rsquo;s Legacy Biotech.
             <br /> <br />
             <button className="btnn" onClick={toggleShowMore2}>Show Less</button>
           </p>
@@ -104,12 +107,41 @@ const Team = () => {
         )}
       </div>
     </section>
+
+    <section className="hed144">
+        <h2 style={{ color: "rgb(66, 66, 66)"  }}>
+        Currently, FLB has a Plant Transformation Scientist as a paid position. We are actively seeking to expand our team by hiring an Agronomy Specialist, a Chemical Technologist, and a Sales and Marketing Specialist.
+        </h2>
+      </section>
+
+
+
+      <section className="hed145">
+        <h1 style={{ color: "rgb(66, 66, 66)"  }}> where we are</h1>
+        <h2 style={{ color: "rgb(66, 66, 66)"  }}>
+        Farmer&apos;s Legacy Biotech (FLB) has successfully raised $250K for seed development. We are currently in the process of raising a total of $500K, with $250K contributed by investors and an additional $250K from government funding. In $500k- $200K for seed commercialization: This involves obtaining approval from the Canadian Food Inspection Agency (CFIA), with the Industrial Research Assistance Program (IRAP) already committing $100K towards this effort.$200K for product development: This will support the development of multiple applications of Brahmola, backed by relevant data and experimental results.$100K for product marketing: This funding will be used to promote Brahmola and its applications
+        </h2>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div className="info">
         <div className="roww">
           <div className="colll1">
             <h3>ABOUT US</h3>
             <p>
-              Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer’s Legacy Biotech.
+              Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer&rsquo;s Legacy Biotech.
             </p>
           </div>
           <div className="colll3">

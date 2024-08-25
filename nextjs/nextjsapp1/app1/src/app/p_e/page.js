@@ -1,7 +1,5 @@
 "use client";
-import { useState } from "react";
-import hidbeforloginsign from "../privatecomponentviaHOC/privcomphoc";
-import cardimg from "../../../public/images/cardimg.jpg";
+import logo from "../../../public/images/logo.png";
 import Image from "next/image";
 
 //import like down here when ---------x
@@ -22,7 +20,7 @@ import Link from "next/link";
 import "./p_e.css";
 import Enquiry from "../enq/enquiry";
 
-const pe = () => {
+const Pe = () => {
     const router = useRouter();
     return(
         <div className="main">
@@ -57,7 +55,7 @@ const pe = () => {
               <li>
                 <button
                   className="btonhome"
-                  onClick={() => router.push("/about2")}
+                  onClick={() => router.push("/About2")}
                 >
                   About
                 </button>
@@ -108,74 +106,23 @@ const pe = () => {
               <p className="pppp">
               PARTNERS & INVESTORS
               </p>
-              {/* <p className="ppp">
-              dsnfksjdfsnfjknsfjjfdnffkjdknkdsjnfkjdfnjdnfdnfdsjfndsfnkjdsfnkjsdfn
-              </p>
-              <p className="ppp">
-              00000000000000000000000000000000000000000000000
-              </p> */}
+             
             
           </div>
         </div>
-{/* 
-        <section className="hed1">
-            <p>Canadian Legacy Biotech believes in developing technology for Planet, People, & Profit. We excel by challenging ourselves and by promoting human curiosity.</p>
-        </section> */}
 
 
 
 
-        {/* <section className="sec1">
 
-            <div className="inner">
-                <h2>Our Purpose</h2>
-                <p>
-                At Farmer’s Legacy Biotech, we are excited about the limitless possibility technology can offer for a better future.  We are a forward-thinking company that pride itself by working to address the challenges faced by Canadian Farmers. We drive our purpose from the challenges faced by Canadian farmers and use biotechnology to address these challenges. We will focus on finding inefficiencies in agriculture and develop solutions for them.
-                <br></br> <br></br>   Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer’s Legacy Biotech.
-                </p>
-            </div>
-            <div className="inner">
-                <h2>Our Values</h2>
-                <p>
-                Our values define our actions, and we lead by LEAP. LEAP stands for leadership, empathy, ardent, and persistence. We will work as a leader and create winning situations for all the stakeholders involved in the business. While we are a technology company, our projects shall benefit all our partners alike. Our goal is to be aware of our surroundings and empathize with the people who face challenges but not find answers to their current woes.
-
-                <br></br> <br></br>    We will help those people find the solution to their problems for the betterment of society. We will be persistent in our approach. We will see challenges as a steppingstone and work toward our goal making failure non-permanent.                </p>
-            </div>
-            
-
-        </section>
-        <section className="sec2">
-
-            <div className="inner">
-              <Image 
-              className="im"
-                src={leadership}
-              />
-                <h2>Leadership</h2>
-                <p>
-                At Farmer’s Legacy Biotech, we are excited about the limitless possibility technology can offer for a better future.  We are a forward-thinking company that pride itself by working to address the challenges faced by Canadian Farmers. We drive our purpose from the challenges faced by Canadian farmers and use biotechnology to address these challenges. We will focus on finding inefficiencies in agriculture and develop solutions for them.
-                <br></br> <br></br>   Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer’s Legacy Biotech.
-                </p>
-            </div>
-            <div className="inner">
-              <Image 
-              className="im"
-              src={empathy}
-              />
-            <h2>Empathy</h2>
-                <p>
-                At Farmer’s Legacy Biotech, we are excited about the limitless possibility technology can offer for a better future.  We are a forward-thinking company that pride itself by working to address the challenges faced by Canadian Farmers. We drive our purpose from the challenges faced by Canadian farmers and use biotechnology to address these challenges. We will focus on finding inefficiencies in agriculture and develop solutions for them.
-                <br></br> <br></br>   Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer’s Legacy Biotech.
-                </p>
-            </div>
-
-        </section> */}
+        
         <section className="sec3">
 
             <div className="inner">
             <Image 
               className="imf"
               src={ard}
+              alt="Leadership illustration"
               />
             <h2>Partners</h2>
                 <p>
@@ -190,12 +137,34 @@ const pe = () => {
             <Image 
               className="imf"
                 src={pers}
+                alt="Leadership illustration"
               />
             <h2>Inversors</h2>
                 <p>
-                We are looking for pre-seed investment in FLB to undertake field trials to receive Canadian Food Inspection Agency approval and develop further applications of Brahmola.
+                We are looking for pre-seed investment in FLB to undertake field trials to receive Canadian Food Inspection Agency approval and develop further applications of Brahmola.
                 <br></br> <br></br>  
                 </p>
+            </div>
+
+        </section>
+        {/* /////////////////////////////////////////for images */}
+        <section className="sec3">
+
+            <div className="inner">
+            <Image 
+              className="imf"
+              src={logo}
+              alt="Leadership illustration"
+              />
+            
+            </div>
+            <div className="inner">
+            <Image 
+              className="imf"
+                src={pers}
+                alt="Leadership illustration"
+              />
+            
             </div>
 
         </section>
@@ -204,7 +173,7 @@ const pe = () => {
             <div className="roww">
               <div className="colll1">
                   <h3>ABOUT US</h3>
-                  <p >Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer’s Legacy Biotech.</p>
+                  <p >Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer&apos;s Legacy Biotech.</p>
                   
               </div>
               {/* <div className="colll2">
@@ -236,7 +205,7 @@ const pe = () => {
 </div> 
     )
 }  
-export default pe;
+export default Pe;
 
 
 

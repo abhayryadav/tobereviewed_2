@@ -1,11 +1,7 @@
 'use client';
-import { useEffect } from "react";
-import hidbeforloginsign from "../privatecomponentviaHOC/privcomphoc";
 import Image from 'next/image';
-import menu from "../../../public/images/menu.png";
 import milk from "../../../public/images/milk.jpg";
 import oilll from "../../../public/images/oilll.jpg";
-import back from "../../../public/images/back.png";
 import { useRouter } from "next/navigation";
 import "./products.css";
 import Enquiry from "../enq/enquiry";
@@ -58,7 +54,7 @@ const router=useRouter();
                 <li>
                   <button
                     className="btonhome"
-                    onClick={() => router.push("/about2")}
+                    onClick={() => router.push("/About2")}
                   >
                     About
                   </button>
@@ -110,7 +106,7 @@ const router=useRouter();
           <center>
               <div className="headerproddata">
               <p>
-                  Product: FLB Proprietary Blend and Brahmola are two flagship products of Farmer’s Legacy Biotech. FLB Blend comprises of 80% Brahmola and 20% other Candian Oil meeting all the regulatory requirements of Codex Alimentarius to be used in Infant Formula. Brahmola is healthy deep frying oil with excellent oxidative resistant capability
+                  Product: FLB Proprietary Blend and Brahmola are two flagship products of Farmer&apos;s Legacy Biotech. FLB Blend comprises of 80% Brahmola and 20% other Candian Oil meeting all the regulatory requirements of Codex Alimentarius to be used in Infant Formula. Brahmola is healthy deep frying oil with excellent oxidative resistant capability
               </p>
             </div>
           </center>
@@ -126,31 +122,10 @@ const router=useRouter();
             </div>
 
         </section>
-        {/* <div className="row">
-            <div className="col">
-                <Image src={oilll} className="imggg"></Image>
-                <h4 className="prodhead">Frying Oil</h4>
-               
-                  <p className="para1">Brahmola balanced SFA, MUFA and PUFA profile and resistant against oxidation make it suitable for deep frying application.
-                  </p>
-                  <p className="para1">Brahmola is healthy deep frying Oil. You do not need to compromise on oil quality for good taste.
-                  </p>
-                
-                
-            </div>
-            <div className="col">
-                <Image src={milk} className="imggg"></Image>
-                <h4 className="prodhead">Infant Formula</h4>
-                <p className="para2">FLB Proprietary Blend comprising of 80% Brahmola and 20% other Canadian Oil with  balanced SFA, MUFA and PUFA profile make it ideal Oil to be used for Infant formula Application simplifying current practice of using Palm Oil, Sunflower Oil and Soyabean Oil blend.  
-                </p>
-                <p className="para2">FLB proprietary Blend negligible 3-MCPD and GE content is safe for children and keep the consumption level below safety limits for the infants solely feeding on infant.
-                </p>
-            </div>
-            
-        </div> */}
+        
       <div className="row">
             <div className="col">
-                <Image src={oilll} className="imggg"></Image>
+                <Image src={oilll} className="imggg" alt="Leadership illustration"></Image>
                 <h4 className="prodhead">Frying Oil</h4>
                
                   <p className="para1">Brahmola balanced SFA, MUFA and PUFA profile and resistant against oxidation make it suitable for deep frying application.
@@ -161,7 +136,7 @@ const router=useRouter();
                 
             </div>
             <div className="col">
-                <Image src={milk} className="imggg"></Image>
+                <Image src={milk} className="imggg" alt="Leadership illustration"></Image>
                 <h4 className="prodhead">Infant Formula</h4>
                 <p className="para2">FLB Proprietary Blend comprising of 80% Brahmola and 20% other Canadian Oil with  balanced SFA, MUFA and PUFA profile make it ideal Oil to be used for Infant formula Application simplifying current practice of using Palm Oil, Sunflower Oil and Soyabean Oil blend.  
                 </p>
@@ -176,14 +151,10 @@ const router=useRouter();
             <div className="roww">
               <div className="colll1">
                   <h3>ABOUT US</h3>
-                  <p >Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer’s Legacy Biotech.</p>
+                  <p >Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer&apos;s Legacy Biotech.</p>
                   
               </div>
-              {/* <div className="colll2">
-              <h3>IMPORTANT LINKS</h3>
-                  <p>Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer’s Legacy Biotech.</p>
-                 
-              </div> */}
+              
               <div className="colll3">
               <h3>GET IN TOUCH</h3>
               <div>

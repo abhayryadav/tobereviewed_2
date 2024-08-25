@@ -38,7 +38,7 @@ body{
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+  flex-wrap: wrap; 
 
   height: fit-content;
 }
@@ -51,15 +51,15 @@ body{
 }
 
 /* Media queries for different screen sizes */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .ulhometop {
-      flex-direction: column; /* Stack items vertically on smaller screens */
+      flex-direction: column; 
   }
 
   .ulhometop li {
-      width: 100%; /* Full width for each item on smaller screens */
+      width: 100%; 
   }
-}
+} */
 .divhome2{
   /* margin-top: 10px; */
   margin-left: 0px;
@@ -247,7 +247,7 @@ body{
   width: 300px;
   text-align: center;
 }
-@media screen and (max-width: 1380px) {
+/* @media screen and (max-width: 1380px) {
   .Searchhome{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -276,7 +276,7 @@ body{
 @media screen and (max-width: 820px) {
 
 
-}
+} */
 
 .cheading{
   color: white;
@@ -984,6 +984,7 @@ margin-top: 10px;
     border-radius: 7px;
   }
   .info{
+    width: 100vw;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -1052,3 +1053,492 @@ margin-top: 10px;
 .cprt{
   color:  rgb(255, 255, 255);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Media Query for Mobile Devices (up to 768px) */
+@media screen and (max-width: 768px) {
+  /* Adjusting .divhomemain layout */
+  .divhomemain {
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center elements */
+  }
+
+  /* Adjusting .ulhometop layout */
+  .ulhometop {
+    margin-top: 30vh;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .ulhometop li {
+    width: 100%; /* Each item takes full width */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* Adjusting intro header */
+  .introheader {
+    height: 40vh; /* Reduce height */
+  }
+
+  .introheader .cardd {
+    width: 90%; /* Increase width */
+    height: 40%;
+  }
+
+  .ppp {
+    font-size: 1rem; /* Reduce font size */
+  }
+
+  /* Adjusting .data1 and .data2 */
+  .data1, .data2 {
+    width: 100%; /* Full width */
+    margin: 10px 0; /* Space between */
+  }
+
+  /* Adjusting .aboutushome layout */
+  .aboutushome{
+    margin-top: 400px;
+  }
+  .aboutushome .cardcontainerhome1 {
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center align */
+  }
+
+  .aboutushome .cardhome1,
+  .aboutushome .cardhome2,
+  .aboutushome .cardhome3 {
+    width: 90vw; /* Almost full width */
+    margin: 10px 0; /* Space between cards */
+  }
+
+  /* Adjusting .Searchhome and .searchinput */
+  .Searchhome {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  .searchinput {
+    width: 80%; /* Reduce width */
+  }
+}
+
+/* Media Query for Tablets (768px to 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Adjusting .divhomemain layout */
+  .divhomemain {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Adjusting .ulhometop layout */
+  .ulhometop {
+    margin-top: 40vh;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .ulhometop li {
+    width: 100%; /* Two items per row */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* Adjusting intro header */
+  .introheader {
+    height: 50vh; /* Reduce height */
+  }
+
+  .introheader .cardd {
+    width: 80%; /* Increase width */
+    height: 50%;
+  }
+
+  .ppp {
+    font-size: calc(0.8rem + 1vw); /* Adjust font size */
+  }
+
+  /* Adjusting .data1 and .data2 */
+  .data1, .data2 {
+    width: 48%; /* Two items per row */
+    margin-bottom: 20px;
+  }
+
+  /* Adjusting .aboutushome layout */
+  .aboutushome{
+    margin-top: 400px;
+  }
+  .aboutushome .cardcontainerhome1 {
+    flex-direction: row;
+    flex-wrap: wrap; /* Wrap cards */
+    justify-content: center;
+  }
+
+  .aboutushome .cardhome1,
+  .aboutushome .cardhome2,
+  .aboutushome .cardhome3 {
+    width: 45%; /* Two cards per row */
+    margin: 10px;
+  }
+
+  /* Adjusting .Searchhome and .searchinput */
+  .Searchhome {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+  }
+
+  .searchinput {
+    width: 70%; /* Reduce width */
+  }
+}
+
+/* Media Query for Desktops (1024px and above) */
+@media screen and (min-width: 1024px) {
+  /* Adjusting .divhomemain layout */
+  .divhomemain {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* Adjusting .ulhometop layout */
+  .ulhometop {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .ulhometop li {
+    width: auto; /* Maintain original width */
+    margin-bottom: 0;
+  }
+
+  /* Adjusting intro header */
+  .introheader {
+    height: 55vh; /* Maintain original height */
+  }
+
+  .introheader .cardd {
+    width: 70%; /* Maintain original width */
+    height: 60%;
+  }
+
+  .ppp {
+    font-size: calc(1rem + 1vw); /* Maintain original font size */
+  }
+
+  /* Adjusting .data1 and .data2 */
+  .data1, .data2 {
+    width: 48%; /* Maintain two items per row */
+    margin-bottom: 0;
+  }
+
+  /* Adjusting .aboutushome layout */
+  .aboutushome .cardcontainerhome1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .aboutushome .cardhome1,
+  .aboutushome .cardhome2,
+  .aboutushome .cardhome3 {
+    width: 20vw; /* Maintain original width */
+    margin: 20px;
+  }
+
+  /* Adjusting .Searchhome and .searchinput */
+  .Searchhome {
+    margin-left: 300px;
+    margin-right: 10px;
+    width: auto;
+  }
+
+  .searchinput {
+    width: 300px; /* Maintain original width */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Media Query for Mobile Devices (up to 768px) */
+@media screen and (max-width: 768px) {
+  /* Adjusting .pagemain layout */
+  .pagemain {
+    padding: 10px;
+  }
+
+  /* Adjusting .sustainablityhome layout */
+  .sustainablityhome {
+    padding-top: 50px;
+  }
+
+  .sustainablitycardcontainerhome {
+    flex-direction: column;
+    margin-top: 2vh;
+    margin-bottom: 40px;
+  }
+
+  .sustainablitycardhome {
+    width: 90vw; /* Full width */
+    margin-bottom: 20px; /* Space between cards */
+  }
+
+  .sustainablitycardcontenthome h3 {
+    font-size: 1.5rem; /* Adjust font size */
+  }
+
+  .sustainablitycardcontenthome p {
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  /* Adjusting .ourproductshome layout */
+  .ourproductshome {
+    padding-top: 50px;
+  }
+
+  .cardcontainerourproductshome {
+    flex-direction: column;
+  }
+
+  .ourproductshome .colhome2 p {
+    width: 80vw; /* Full width */
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .ourproductshome .colhome2 button {
+    width: 100%;
+    font-size: 1rem; /* Adjust font size */
+    padding: 10px;
+  }
+
+  .crophome {
+    width: 90vw; /* Full width */
+    height: auto;
+  }
+
+  /* Adjusting .partnersAndInversorshome layout */
+  .partnersAndInversorshome {
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .partnersAndInversorshome .colhome2 p {
+    width: 80vw; /* Full width */
+    font-size: 1rem; /* Adjust font size */
+  }
+  .partnersAndInversorshome .cardcontainerourproductshome{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .partnersAndInversorshome .colhome2 h2 {
+    font-size: 1.5rem; /* Adjust font size */
+  }
+
+  .partnersAndInversorshome button {
+    width: 100%;
+    font-size: 1rem; /* Adjust font size */
+    padding: 10px;
+  }
+
+  /* Adjusting .info layout */
+  .info {
+    padding: 20px;
+  }
+
+  .roww {
+    flex-direction: column;
+  }
+
+  .colll1, .colll2, .colll3 {
+    width: 90vw; /* Full width */
+    margin-bottom: 20px; /* Space between columns */
+  }
+
+  .linee {
+    margin: 20px auto;
+  }
+
+  .cprt1, .cprt {
+    font-size: 0.8rem; /* Adjust font size */
+  }
+}
+
+/* Media Query for Tablets (768px to 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Adjusting .pagemain layout */
+  .pagemain {
+    padding: 20px;
+  }
+
+  /* Adjusting .sustainablityhome layout */
+  .sustainablityhome {
+    padding-top: 75px;
+  }
+
+  .sustainablitycardcontainerhome {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 60px;
+  }
+
+  .sustainablitycardhome {
+    width: 45vw; /* Half width */
+    margin-bottom: 20px; /* Space between cards */
+  }
+
+  .sustainablitycardcontenthome h3 {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .sustainablitycardcontenthome p {
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  /* Adjusting .ourproductshome layout */
+  .ourproductshome {
+    padding-top: 75px;
+  }
+
+  .cardcontainerourproductshome {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .ourproductshome .colhome2 p {
+    width: 70vw; /* Adjust width */
+    font-size: 1.2rem; /* Adjust font size */
+  }
+
+  .ourproductshome .colhome2 button {
+    width: auto;
+    font-size: 1.2rem; /* Adjust font size */
+    padding: 12px;
+  }
+
+  .crophome {
+    width: 45vw; /* Adjust width */
+    height: auto;
+  }
+
+  
+  /* Adjusting .partnersAndInversorshome layout */
+  .partnersAndInversorshome {
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .partnersAndInversorshome .colhome2 p {
+    width: 80vw; /* Full width */
+    font-size: 1rem; /* Adjust font size */
+  }
+  .partnersAndInversorshome .cardcontainerourproductshome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .partnersAndInversorshome .colhome2 h2 {
+    font-size: 1.5rem; /* Adjust font size */
+  }
+
+  .partnersAndInversorshome button {
+    width: 100%;
+    font-size: 1rem; /* Adjust font size */
+    padding: 10px;
+  }
+
+  /* Adjusting .info layout */
+  .info {
+    padding: 30px;
+  }
+
+  .roww {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .colll1, .colll2, .colll3 {
+    width: 30vw; /* Adjust width */
+    margin-bottom: 10px; /* Space between columns */
+  }
+
+  .linee {
+    margin: 30px auto;
+  }
+
+  .cprt1, .cprt {
+    font-size: 1rem; /* Adjust font size */
+  }
+}
+

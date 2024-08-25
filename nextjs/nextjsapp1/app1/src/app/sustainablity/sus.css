@@ -30,17 +30,7 @@
     float: left;
     list-style: none;
   }
-  /* .ulhometop{
-      margin-top: 10px;
-      margin-left: 0px;
-      padding-right: 20px;
-      list-style-type: none;
-      margin-bottom: 20px;
-      display:flex;
-      flex-direction: row;
-      height: fit-content;
-    
-  } */
+
   .ulhometop {
     margin-top: 10px;
     margin-left: 0px;
@@ -49,28 +39,19 @@
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    flex-wrap: wrap; 
   
     height: fit-content;
   }
   
   .ulhometop li {
-    /* Optional: Define width or max-width to ensure items are responsive */
-    flex: 1 1 auto; /* Allows items to grow and shrink as needed */
-    min-width: 100px; /* Adjust as needed */
+   
+    flex: 1 1 auto; 
+    min-width: 100px; 
     box-sizing: border-box;
   }
-  
-  /* Media queries for different screen sizes */
-  @media (max-width: 768px) {
-    .ulhometop {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-    }
-  
-    .ulhometop li {
-        width: 100%; /* Full width for each item on smaller screens */
-    }
-  }
+ 
+
   .divhome2{
     /* margin-top: 10px; */
     margin-left: 0px;
