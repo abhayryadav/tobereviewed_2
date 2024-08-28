@@ -12,13 +12,13 @@ app.use(cors())
 app.use('/static', express.static(path.join(__dirname, 'images')));
 
 
-//   rhpz shve aepl zcix
+//   ixbn iicx iwut cdmx
 const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 587,
     auth: {
         user: 'gafrontspace@gmail.com',
-        pass: 'rhpzshveaeplzcix'
+        pass: 'ixbniicxiwutcdmx'
      
     }
 });

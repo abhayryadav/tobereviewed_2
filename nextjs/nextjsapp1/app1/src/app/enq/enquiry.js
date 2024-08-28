@@ -49,7 +49,10 @@ const Enquiry = () => {
           querry
       );
       try {
-        const resp = await fetch("http://localhost:4000/queries", {
+
+        // const resp = await fetch("http://localhost:4000/queries", {
+          const resp = await fetch("https://bck-frmr.vercel.app/queries", {
+         
           method: "POST",
           headers: {
             "Content-Type": "application/json",
