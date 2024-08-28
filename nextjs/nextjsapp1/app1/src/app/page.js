@@ -1,5 +1,6 @@
 //1
 "use client";
+import Head from "next/head";
 //import hidbeforloginsign from "./privatecomponentviaHOC/privcomphoc";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -162,6 +163,7 @@ export default function Home() {
 
   return (
     <div>
+      
       <Enquiry/>
 
       <div className="main">
@@ -435,10 +437,6 @@ export default function Home() {
     </div>
   );
 }
-
-
-
-
 
 
 
