@@ -205,8 +205,9 @@
     padding: 2vmin;
     /* padding-top: 5vmin; */
     /* padding-bottom: 5vmin; */
-    width: 70vw;
-    height: 50vh;
+    width: 90vw;
+    height: 60vh;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -524,8 +525,8 @@ body {
   }
 
   .innerr {
-    width: 70vw;
-    height: 50vh;
+    width: 90vw;
+    height: 60vh;
     flex-direction: row;
   }
 

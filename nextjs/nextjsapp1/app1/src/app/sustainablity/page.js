@@ -118,7 +118,7 @@ const Sustainablity = () => {
               />
                 <h2>Impact on Canadian Farmers</h2>
                 <p>
-                Farmer&apos;s harvest cycle depends on the rotation of the crop, and few plants impact the health of other crops and the farm. We are committed to help strike the right balance between different crops so that resources used in farming are optimized. We recognize global climate change and are committed to developing products that help meet Paris climate agreement goals.
+                Farmer&apos;s harvest cycle depends on the rotation of the crop, and Canola is known to positively impact the health of other crops and the farm. Limited Canola application and competition from Australian and Ukrainian Canola has put pressure on Canadian Canola and reduced profitability of Canadian farmers. For sustainability of Canadian Farms and Canola farming, diversification is prerequisite and Brahmola with multiple edible and industrial applications will able to support the growth of Canola industry and maintain the health of Canadian Farm.
                 <br></br> <br></br>  
                 </p>
             </div>
@@ -130,7 +130,7 @@ const Sustainablity = () => {
               />
             <h2>Impact on Consumers</h2>
                 <p>
-                Our most of day to day products use for household and home care is based on non-renewable sources. Our goal is to reduce the reliance on non-renewable sources for making household and home care products. Consumers will get the best products with ingredients in their product from renewable sourcing with minimum chances of contamination from dangerous chemicals.
+                Consumers do not know what they are consuming and what is good for their health and the environment. It is responsibility of product designer and industry to design product considering consumer and environment health first than the profits. 50% of the supermarket products use unhealthy and unsustainable palm oil and hydrogenated oil and most of the time consumer is unaware of those ingredients present in their basic snacks or even coffee creamer. FLB has created Brahmola with healthy fatty acid profile that will be grown sustainably in Canada without impacting environment and biodiversity and will be healthy for consumers and the environment. FLB would like to replace palm oil from as many supermarkets product as possible to provide both health and taste to the consumers. FLB goal is to replace multiple oil blend in Infant formula to remove toxic compounds like 3-MCPD and GE that can accumulate in Infants relying solely on Infant formula at danger levels resulting in health complications. Deep fried snacks can be made healthy by frying in w-3 and w-6 rich Brahmola oil.
                  <br></br> <br></br>  
                 </p>
             </div>
@@ -142,7 +142,7 @@ const Sustainablity = () => {
               />
                 <h2>Impact on Forthcoming Generations</h2>
                 <p>
-                We are looking for solutions that will able to reduce energy and resource consumption. Currently, we are reliant on processes to make modified products that involve high energy consumption. Our goal is to use bioreactors to produce those modified products and reduce our reliance on non-renewable sources so that we have resources left for our future generations.<br></br> <br></br>  
+                Canola plant is one of the most flexible bioreactors and no chemical processes can shorten the fatty acid chain except Canola plant. FLB innovative Canola bioreactors pave the sustainable pathway for shortening the fatty acid without relying on high temperature cracking reactors. Introduction of MCFA will pave the way for using Brahmola in other industries that are relying on petroleum industry. When consumption pattern has changed new generation needs new sustainable ways to support necessities without causing adverse impact in environment. Brahmola is right foot forward to revolutionize the Consumer Product Industry and make it more sustainable for forthcoming generations.<br></br> <br></br>  
                 </p>
             </div>
 

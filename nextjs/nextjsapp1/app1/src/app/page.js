@@ -264,7 +264,7 @@ export default function Home() {
               <div className="cardcontenthome1">
                 <h3>Our Aim</h3>
                 <p>New challenges and using novel technologies</p>
-                <button onClick={()=>{router.push(`/about2`)}}> know more</button>
+                <button onClick={()=>{router.push(`./about2`)}}> Read more</button>
                 
               </div>
             </div>
@@ -276,7 +276,7 @@ export default function Home() {
                   At Farmer&apos;s Legacy Biotech, we are excited about the limitless
                   possibilities
                 </p>
-                <button onClick={()=>{router.push(`/about2`)}}> know more</button>
+                <button onClick={()=>{router.push(`./about2`)}}> Read more</button>
                
               </div>
             </div>
@@ -285,7 +285,7 @@ export default function Home() {
               <div className="cardcontenthome3">
                 <h3> Our Values</h3>
                 <p>Our values define our actions, and we lead by LEAP.</p>
-                <button onClick={()=>{router.push(`/about2`)}}> know more</button>
+                <button onClick={()=>{router.push(`./about2`)}}> Read more</button>
                 
               </div>
             </div>
@@ -307,10 +307,12 @@ export default function Home() {
                 <div className="sustainablitycardcontenthome">
                   <h3 > Impact on Canadian Farmers</h3>
                   <p>Farmer&apos;s harvest cycle depends on the rotation of the crop, and few plants impact the health of other crops and the farm.</p>
-                  <a href="/sustainablity" className="btn">
-                    {" "}
-                    Read More
-                  </a>
+                  <button
+                  className="btn"
+                  onClick={() => router.push(`../sustainablity`)}
+                >
+                  Read more
+                </button>
                 </div>
               </div>
               <div className="sustainablitycardhome">
@@ -322,10 +324,12 @@ export default function Home() {
                 <div className="sustainablitycardcontenthome">
                   <h3 > Impact on Consumers</h3>
                   <p>Our most of day to day products use for household and home care is based on non-renewable sources.</p>
-                  <a href="/sustainablity" className="btn">
-                    {" "}
-                    Read More
-                  </a>
+                  <button
+                  className="btn"
+                  onClick={() => router.push(`../sustainablity`)}
+                >
+                  Read more
+                </button>
                 </div>
               </div>
               <div className="sustainablitycardhome">
@@ -337,10 +341,12 @@ export default function Home() {
                 <div className="sustainablitycardcontenthome">
                   <h3 > Impact on forthcoming generations</h3>
                   <p>We are looking for solutions that will able to reduce energy and resource consumption.</p>
-                  <a href="/sustainablity" className="btn">
-                    {" "}
-                    Read More
-                  </a>
+                  <button
+                  className="btn"
+                  onClick={() => router.push(`../sustainablity`)}
+                >
+                  Read more
+                </button>
                 </div>
               </div>
             </div>
@@ -355,16 +361,11 @@ export default function Home() {
                 </div>
                 <div className="colhome2">
                   <div>
-                    <button onClick={()=>{router.push("/products")}}> know more </button>
+                    <button onClick={()=>{router.push(`../products`)}}> know more </button>
                   </div>
                   <p>
                     {" "}
-                    Seeds: We will develop farm seeds that are optimum in
-                    agronomic and nutritional value properties. The seed
-                    products will find multiple applications. These numerous
-                    applications will able to diversify the current usage and
-                    reduce reliance on a few consumption patterns. We will be
-                    modifying the seeds with the latest technology routes.
+                    Seeds: FLB has repurposed Canola seeds, naming it Brahmola that has optimum characteristics for human consumption and industry requirements. Brahmola&apos;s  Saturated fatty acid,  Monounsaturated Fatty Acid and Polyunsaturated Fatty Acid is near to WHO recommended ratio of 1:1.3:1 making it ideal oil for human consumption with multiple edible and industrial applications. These numerous applications will able to diversify the current usage and reduce reliance on a few markets for Canola. 
                   </p>
                 </div>
               </div>
@@ -380,7 +381,7 @@ export default function Home() {
                 </div>
                 <div className="colhome2">
                 <div>
-                    <button onClick={()=>{router.push("/p_e")}}> know more </button>
+                    <button onClick={()=>{router.push(`../p_e`)}}> know more </button>
                   </div>
                   <div className="pt">
                     <h2> Partners </h2>
