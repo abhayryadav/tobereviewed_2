@@ -153,10 +153,10 @@ const Pe = () => {
         {/* /////////////////////////////////////////for images */}
         <section className="sec3">
 
-            <div className="inner">
+            <div className="innerc">
             <Image 
             unoptimized
-              className="imf"
+              className="imfc"
               src={calg}
               alt="Leadership illustration"
               />

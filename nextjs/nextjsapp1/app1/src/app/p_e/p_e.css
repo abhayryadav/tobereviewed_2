@@ -240,6 +240,24 @@
     width: 100%;
     height: 30vmin;
   }
+  .innerc{
+    margin: 5%;
+    background-color:rgba(16, 15, 15, 0);
+    padding: 2vmin;
+    /* padding-top: 5vmin; */
+    padding-bottom: 5vmin;
+    width: 50vmin;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: 0 0 20px rgba(4, 4, 4, 0.179);
+    
+    text-align:start;
+  }
+  .imfc{
+    width: 100%;
+    height: auto;
+  }
   .info{
     justify-content: center;
     align-items: center;
