@@ -125,7 +125,7 @@ const router=useRouter();
         
       <div className="row">
             <div className="col">
-                <Image src={oilll} className="imggg" alt="Leadership illustration"></Image>
+                <Image  unoptimized src={oilll} className="imggg" alt="Leadership illustration"></Image>
                 <h4 className="prodhead">Frying Oil</h4>
                
                   <p className="para1">Brahmola balanced SFA, MUFA and PUFA profile and resistant against oxidation make it suitable for deep frying application.
@@ -136,7 +136,7 @@ const router=useRouter();
                 
             </div>
             <div className="col">
-                <Image src={milk} className="imggg" alt="Leadership illustration"></Image>
+                <Image  unoptimized src={milk} className="imggg" alt="Leadership illustration"></Image>
                 <h4 className="prodhead">Infant Formula</h4>
                 <p className="para2">FLB Proprietary Blend comprising of 80% Brahmola and 20% other Canadian Oil with  balanced SFA, MUFA and PUFA profile make it ideal Oil to be used for Infant formula Application simplifying current practice of using Palm Oil, Sunflower Oil and Soyabean Oil blend.  
                 </p>

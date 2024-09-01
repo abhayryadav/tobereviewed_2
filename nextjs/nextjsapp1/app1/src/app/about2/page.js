@@ -131,6 +131,7 @@ const About2 = () => {
 
             <div className="innerab">
               <Image 
+              unoptimized
               className="imab"
                 src={leadership}
                 alt="Leadership illustration"
@@ -143,6 +144,7 @@ const About2 = () => {
             </div>
             <div className="innerab">
               <Image 
+              unoptimized
               className="imab"
               src={empathy}
               alt="Leadership illustration"
@@ -159,6 +161,7 @@ const About2 = () => {
 
             <div className="innerab">
             <Image 
+            unoptimized
               className="imab"
               src={ard}
               alt="Leadership illustration"
@@ -171,6 +174,7 @@ const About2 = () => {
             </div>
             <div className="innerab">
             <Image 
+            unoptimized
               className="imab"
                 src={pers}
                 alt="Leadership illustration"

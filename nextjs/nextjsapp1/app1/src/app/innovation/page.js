@@ -117,6 +117,7 @@ const Innovation = () => {
 
               <div className="innerr">
                 <Image 
+                unoptimized
                 className="imm"
                 src={ard}
                 alt="Leadership illustration"

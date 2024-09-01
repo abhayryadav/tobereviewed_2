@@ -112,6 +112,7 @@ const Sustainablity = () => {
 
             <div className="inner1ss">
               <Image 
+              unoptimized
               className="imss"
                 src={cf}
                 alt="Leadership illustration"
@@ -124,6 +125,7 @@ const Sustainablity = () => {
             </div>
             <div className="inner2ss">
               <Image 
+              unoptimized
               className="imss"
               src={hc}
               alt="Leadership illustration"
@@ -136,6 +138,7 @@ const Sustainablity = () => {
             </div>
             <div className="inner3ss">
               <Image 
+              unoptimized
               className="imss"
                 src={hg}
                 alt="Leadership illustration"

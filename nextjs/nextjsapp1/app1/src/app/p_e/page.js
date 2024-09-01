@@ -1,6 +1,7 @@
 "use client";
 import logo from "../../../public/images/logo.png";
 import Image from "next/image";
+import calg from "../../../public/images/calg.png"
 
 //import like down here when ---------x
 // import {hidbeforloginsign} from "../privatecomponentviaHOC/privcomphoc";
@@ -120,6 +121,7 @@ const Pe = () => {
 
             <div className="inner">
             <Image 
+            unoptimized
               className="imf"
               src={ard}
               alt="Leadership illustration"
@@ -135,6 +137,7 @@ const Pe = () => {
             </div>
             <div className="inner">
             <Image 
+            unoptimized
               className="imf"
                 src={pers}
                 alt="Leadership illustration"
@@ -152,20 +155,22 @@ const Pe = () => {
 
             <div className="inner">
             <Image 
+            unoptimized
               className="imf"
-              src={logo}
+              src={calg}
               alt="Leadership illustration"
               />
             
             </div>
-            <div className="inner">
+            {/* <div className="inner">
             <Image 
+            unoptimized
               className="imf"
                 src={pers}
                 alt="Leadership illustration"
               />
             
-            </div>
+            </div> */}
 
         </section>
 

@@ -80,7 +80,7 @@ const Team = () => {
 
 <section className="sec2">
       <div className={`inner1 ${showMore1 ? "expanded" : ""}`}>
-        <Image className="im" src={dmss} alt="Leadership illustration" />
+        <Image unoptimized className="im" src={dmss} alt="Leadership illustration" />
         <h2>Dr. Marcus Samuel</h2>
         {showMore1 ? (
           <p>
@@ -94,7 +94,7 @@ const Team = () => {
       </div>
 
       <div className={`inner2 ${showMore2 ? "expanded" : " "}`}>
-        <Image className="im" src={conimg} alt="Leadership illustration"/>
+        <Image unoptimized className="im" src={conimg} alt="Leadership illustration"/>
         <h2>Pankaj Purwar</h2>
         {showMore2 ? (
           <p>

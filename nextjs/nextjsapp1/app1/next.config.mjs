@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output : 'export',
     images:{
         domains:["media.istockphoto.com"]
     }
@@ -23,4 +24,4 @@ const nextConfig = {
 //   },
 // };
 
-// export default nextConfig;
+export default nextConfig;

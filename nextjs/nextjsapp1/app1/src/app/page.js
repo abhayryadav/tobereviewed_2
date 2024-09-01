@@ -300,6 +300,7 @@ export default function Home() {
             <div className="sustainablitycardcontainerhome">
               <div className="sustainablitycardhome">
                 <Image
+                 unoptimized
                   src={cf}
                   style={{ width: "100%", height: "auto" }}
                   alt="Leadership illustration"
@@ -317,6 +318,7 @@ export default function Home() {
               </div>
               <div className="sustainablitycardhome">
                 <Image
+                unoptimized
                   src={hc}
                   style={{ width: "100%", height: "auto" }}
                   alt="Leadership illustration"
@@ -334,6 +336,7 @@ export default function Home() {
               </div>
               <div className="sustainablitycardhome">
                 <Image
+                unoptimized
                   src={hg}
                   style={{ width: "100%", height: "auto" }}
                   alt="Leadership illustration"
@@ -357,7 +360,7 @@ export default function Home() {
             <div className="rowhome">
               <div className="cardcontainerourproductshome">
                 <div className="colhome">
-                  <Image src={crophome} className="crophome" alt="Leadership illustration"></Image>
+                  <Image unoptimized src={crophome} className="crophome" alt="Leadership illustration"></Image>
                 </div>
                 <div className="colhome2">
                   <div>
@@ -377,7 +380,7 @@ export default function Home() {
             <div className="rowhome">
               <div className="cardcontainerourproductshome">
                 <div className="colhome">
-                  <Image src={pe} className="crophome2" alt="Leadership illustration"></Image>
+                  <Image  unoptimized src={pe} className="crophome2" alt="Leadership illustration"></Image>
                 </div>
                 <div className="colhome2">
                 <div>
