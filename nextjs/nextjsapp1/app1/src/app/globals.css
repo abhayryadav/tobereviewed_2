@@ -1100,7 +1100,7 @@ margin-top: 10px;
 
 
 /* General Media Query for Mobile Devices (up to 768px) */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 350px) {
   /* Adjusting .pagemain layout */
   .pagemain {
     padding: 10px;
@@ -1214,7 +1214,7 @@ margin-top: 10px;
 }
 
 /* Media Query for Tablets (768px to 1024px) */
-@media screen and (min-width: 451px) and (max-width: 849px) {
+@media screen and (min-width: 351px) and (max-width: 849px) {
   /* Adjusting .pagemain layout */
   .pagemain {
     padding: 20px;
