@@ -78,7 +78,7 @@
   @media (max-width: 768px) {
     .sideform-enc{
       height: fit-content;
-      left: -30px;
+      left: -300px;
       top: 20%;
       padding: 10px;
       transition: left 0.5s ease;
