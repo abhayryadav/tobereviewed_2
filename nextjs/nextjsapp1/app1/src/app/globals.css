@@ -1,9 +1,7 @@
-* {
+*{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-
 .main{
   width: fit-content;
   height: fit-content;
@@ -1100,7 +1098,7 @@ margin-top: 10px;
 
 
 /* General Media Query for Mobile Devices (up to 768px) */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 900px) {
   /* Adjusting .pagemain layout */
   .pagemain {
     padding: 10px;
@@ -1214,7 +1212,7 @@ margin-top: 10px;
 }
 
 /* Media Query for Tablets (768px to 1024px) */
-@media screen and (min-width: 351px) and (max-width: 849px) {
+@media screen and (min-width: 901px) and (max-width: 1024px) {
   /* Adjusting .pagemain layout */
   .pagemain {
     padding: 20px;
