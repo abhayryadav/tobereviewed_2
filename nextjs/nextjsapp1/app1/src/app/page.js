@@ -15,20 +15,7 @@ import hg from "../../public/images/hg.jpg"
 //import Loader from './loading'; 
 import CircularIndeterminate from './loading';
 import Enquiry from "./enq/enquiry";
-function formtoggle(){
-  const enqyirybtn = document.querySelector('.enqbutton');
-  const form = document.querySelector('.sideform-enc');
-  
-  if (enqyirybtn && form) {
-    console.log('enqyirybtn and  form found');
-    enqyirybtn.addEventListener('click', () => {
-      console.log('enqyirybtn clicked');
-      form.classList.toggle('sideformappear');
-    });
-  } else {
-    console.log('enqyirybtn or form not found');
-  }
-}
+
 
 
 
@@ -129,13 +116,7 @@ export default function Home() {
     }
   }
 
-  function resett() {
-    document.getElementById("outlined-basic-1").value = "";
-    document.getElementById("outlined-basic-2").value = "";
-    document.getElementById("outlined-basic-3").value = "";
-    document.getElementById("outlined-basic-4").value = "";
-    document.getElementById("outlined-basic-5").value = "";
-  }
+
   useEffect(() => {
     if (typeof window === 'undefined') {
      }else{
@@ -143,7 +124,7 @@ export default function Home() {
       if (user) {
         setSession(JSON.parse(user)); // Assuming user is a JSON stringified object
         set_token_to_dif_u_s(JSON.parse(user).t);
-        console.log(JSON.parse(user).sellerid+"nnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnnmnnm")
+        
       }
       setLoading(false);
     }

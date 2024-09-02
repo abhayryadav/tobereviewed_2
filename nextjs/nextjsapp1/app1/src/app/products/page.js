@@ -6,20 +6,7 @@ import { useRouter } from "next/navigation";
 import "./products.css";
 import Enquiry from "../enq/enquiry";
 const Product = () => {
-function navtoggle(){
-    const menubtn = document.querySelector('.menubtn');
-    const navlinks = document.querySelector('.nav-links');
-    
-    if (menubtn && navlinks) {
-      console.log('Menu button and nav links found');
-      menubtn.addEventListener('click', () => {
-        console.log('Menu button clicked');
-        navlinks.classList.toggle('mobile-menu');
-      });
-    } else {
-      console.log('Menu button or nav links not found');
-    }
-}
+
 const router=useRouter();
   return (
     <div className="main">

@@ -2,13 +2,6 @@
 import { useState } from "react";
 import TextField from "@mui/material/TextField";
 
-//import like down here when ---------x
-// import {hidbeforloginsign} from "../privatecomponentviaHOC/privcomphoc";
-//---------x exported like down here in file - /privatecomponentviaHOC/privcomphoc
-// const x=function(){
-//   console.log("x")
-// }
-// export {hidbeforloginsign,x}
 
 import { useRouter } from "next/navigation";
 import "./enq.css";
@@ -111,13 +104,13 @@ const Enquiry = () => {
         const form = document.querySelector('.sideform-enc');
         
         if (enqyirybtn && form) {
-          console.log('enqyirybtn and  form found');
+          // console.log('enqyirybtn and  form found');
           enqyirybtn.addEventListener('click', () => {
-            console.log('enqyirybtn clicked');
+            // console.log('enqyirybtn clicked');
             form.classList.toggle('sideformappear');
           });
         } else {
-          console.log('enqyirybtn or form not found');
+          // console.log('enqyirybtn or form not found');
         }
       }
     const router = useRouter();

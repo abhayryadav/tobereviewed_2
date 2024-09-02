@@ -130,7 +130,7 @@ const Pe = () => {
                 <p>
                     Lab Partner : University of Calgary & National Research Council.<br></br> <br></br>
                     Funding Partners: We are grateful to funding partners MITACS, Biotalent, IRAP, ERIN to provide non-dilutive grants of $250,000.<br></br> <br></br>
-                    Pankaj: We are looking for industry partners to commercialise Brahmola for various edible and  Industrial applications.
+                    We are looking for industry partners to commercialise Brahmola for various edible and  Industrial applications.
 
                 <br></br> <br></br>   
                 </p>
