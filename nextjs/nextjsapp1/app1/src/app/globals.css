@@ -825,6 +825,7 @@ color: rgb(255, 255, 255);
   justify-items: center;
 }
 .sustainablitycardcontainerhome{
+  background-color: #333;
   font-family: sans-serif;
   display: flex;
   justify-content: center;
