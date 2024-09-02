@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  display: block;
 }
 .main{
   width: fit-content;
@@ -1006,6 +1007,9 @@ margin-top: 10px;
     background-color: #171717a6;
     color: rgb(255, 255, 255);
   }
+  .partnersAndInversorshome .cardcontainerpe{
+    display: flex;
+  }
   .info{
     width: 100vw;
     justify-content: center;
@@ -1164,13 +1168,46 @@ margin-top: 10px;
     width: 90vw; /* Almost full width */
     margin: 10px 0; /* Space between cards */
   }
+  .sustainablitycardcontainerhome{
+    display: block;
+
+  }
+  .sustainablitycardhome{
+    width: 90vw;
+  }
   /* Adjusting .Searchhome and .searchinput */
   .Searchhome {
     margin-left: 10px;
     margin-right: 10px;
     width: 100%;
   }
+  .cardcontainerourproductshome{
+    display: block;
+  }
+  .cardcontainerourproductshome button{
+    width: 90vw;
+  }
+  .cardcontainerourproductshome .colhome2 p{
+    width: 90vw;
+    margin: 10px;
+    text-align: center;
+  }
 
+  .cardcontainerpe{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardcontainerpe button{
+    width: 90vw;
+  }
+  .cardcontainerpe .colhome2 p{
+    width: 90vw;
+    margin: 10px;
+    text-align: center;
+  }
   .searchinput {
     width: 80%; /* Reduce width */
   }
@@ -1321,6 +1358,7 @@ margin-top: 10px;
   .searchinput {
     width: 300px; /* Maintain original width */
   }
+ 
 }
 
 

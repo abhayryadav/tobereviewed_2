@@ -360,7 +360,7 @@ export default function Home() {
           <div className="partnersAndInversorshome">
             <h1> Partners And Inversors </h1>
             <div className="rowhome">
-              <div className="cardcontainerourproductshome">
+              <div className="cardcontainerpe">
                 <div className="colhome">
                   <Image  unoptimized src={pe} className="crophome2" alt="Leadership illustration"></Image>
                 </div>
