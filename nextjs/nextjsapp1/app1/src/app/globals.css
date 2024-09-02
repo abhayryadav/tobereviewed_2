@@ -1337,6 +1337,50 @@ margin-top: 10px;
     flex-direction: column;
 
   }
+  .roww {
+    margin: 10vw;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1%; /* Add spacing between items */
+}
+.colll1{
+  width: 90vw; 
+  height: auto;
+  padding: 0.5vw;
+  margin: 1%;
+  text-align: start;
+}
+ .colll3 {
+    width: 90vw; 
+    height: auto;
+    padding: 0.5vw;
+    margin: 1%;
+    text-align: start;
+    
+  }
+
+  .colll1 p, .colll2 p {
+    color: rgb(188, 186, 186);
+    margin: 0; /* Reset margin to avoid unexpected spacing */
+    padding: 0; /* Reset padding */
+    
+  }
+  .colll3 p{
+    color: rgb(188, 186, 186);
+    margin: 0; /* Reset margin to avoid unexpected spacing */
+    padding-top: 1vmin; /* Reset padding */
+    text-align: start;
+  }
+  .copyright{
+    display: block;
+    padding-bottom: 5vh;
+  }
+  .roww h3{
+  
+    color: rgb(255, 255, 255);
+  }
 }
 
 /* Media Query for Desktops (1024px and above) */
