@@ -240,6 +240,7 @@ export default function Home() {
 
         <div className="aboutushome">
           <h1> About Us </h1>
+          
           <div className="cardcontainerhome1">
             <div className="cardhome1">
               <div className="cardcontenthome1">
