@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  display: block;
+
 }
 .main{
   width: fit-content;
@@ -1211,9 +1211,48 @@ margin-top: 10px;
   .searchinput {
     width: 80%; /* Reduce width */
   }
-  .roww{
-    flex-direction: column;
-    align-items: center;
+  .roww {
+    margin: 10vw;
+    display: block;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1%; /* Add spacing between items */
+}
+.colll1{
+  width: 90vw; 
+  height: auto;
+  padding: 0.5vw;
+  margin: 1%;
+  text-align: start;
+}
+ .colll3 {
+    width: 90vw; 
+    height: auto;
+    padding: 0.5vw;
+    margin: 1%;
+    text-align: start;
+    
+  }
+
+  .colll1 p, .colll2 p {
+    color: rgb(188, 186, 186);
+    margin: 0; /* Reset margin to avoid unexpected spacing */
+    padding: 0; /* Reset padding */
+    
+  }
+  .colll3 p{
+    color: rgb(188, 186, 186);
+    margin: 0; /* Reset margin to avoid unexpected spacing */
+    padding-top: 1vmin; /* Reset padding */
+    text-align: start;
+  }
+  .copyright{
+    display: block;
+  }
+  .roww h3{
+  
+    color: rgb(255, 255, 255);
   }
 }
 
@@ -1292,6 +1331,11 @@ margin-top: 10px;
 
   .searchinput {
     width: 70%; /* Reduce width */
+  }
+  .roww{
+    display: flex;
+    flex-direction: column;
+
   }
 }
 
