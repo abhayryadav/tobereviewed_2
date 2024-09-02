@@ -142,7 +142,7 @@ const Pe = () => {
                 src={pers}
                 alt="Leadership illustration"
               />
-            <h2>Inversors</h2>
+            <h2>Investors</h2>
                 <p>
                 We are looking for pre-seed investment in FLB to undertake field trials to receive Canadian Food Inspection Agency approval and develop further applications of Brahmola.
                 <br></br> <br></br>  
