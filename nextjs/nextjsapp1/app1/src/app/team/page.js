@@ -84,7 +84,7 @@ const Team = () => {
         <h2>Dr. Marcus Samuel</h2>
         {showMore1 ? (
           <p>
-           Dr. Marcus Samuel is Professor in Department of Biological Sciences & Academic Director of the Greenhouse, at Integrative Cell Biology (Plant Biology), University of Calgary and CSO of AgGene.  He is Co-founder and Partner with Farmer&apos;s Legacy Biotech. Dr. Samuel leads Plant Transformation and Partnership Development on Breeding side of FLB's Business.
+           Dr. Marcus Samuel is Professor in Department of Biological Sciences & Academic Director of the Greenhouse, at Integrative Cell Biology (Plant Biology), University of Calgary and CSO of AgGene.  He is Co-founder and Partner with Farmer&apos;s Legacy Biotech. Dr. Samuel leads Plant Transformation and Partnership Development on Breeding side of FLB&apos;s Business.
             <br /> <br />
             <button className="btnn" onClick={toggleShowMore1}>Show Less</button>
           </p>
