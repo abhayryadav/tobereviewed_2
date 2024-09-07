@@ -100,9 +100,9 @@ const Sustainablity = () => {
           </div>
         </div>
 
-        <section className="hed14">
+        {/* <section className="hed14">
             <p className="pgf"style={{color:"rgb(66, 66, 66)"}}>Canadian Legacy Biotech believes in developing technology for Planet, People, & Profit. We excel by challenging ourselves and by promoting human curiosity.</p>
-        </section>
+        </section> */}
 
 
 

@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import milk from "../../../public/images/milk.jpg";
 import oilll from "../../../public/images/oilll.jpg";
+import oilcan from "../../../public/images/oilcan.png";
 import { useRouter } from "next/navigation";
 import "./products.css";
 import Enquiry from "../enq/enquiry";
@@ -93,7 +94,7 @@ const router=useRouter();
           <center>
               <div className="headerproddata">
               <p>
-                  Product: FLB Proprietary Blend and Brahmola are two flagship products of Farmer&apos;s Legacy Biotech. FLB Blend comprises of 80% Brahmola and 20% other Candian Oil meeting all the regulatory requirements of Codex Alimentarius to be used in Infant Formula. Brahmola is healthy deep frying oil with excellent oxidative resistant capability
+              Seeds: FLB is Plant Breeding company with Brahmola seed as flagship brand. FLB  repurposed Brahmola has optimum characteristics for human consumption and industry requirements. Brahmola&apos;s Saturated fatty acid, Monounsaturated Fatty Acid and Polyunsaturated Fatty Acid is near to WHO recommended ratio of 1:1.3:1 making it ideal oil for human consumption with multiple edible and industrial applications. These numerous applications will able to diversify the current usage and reduce reliance on a few markets for Canola. You want to know more about Brahmola Oil Application. Learn More.
               </p>
             </div>
           </center>
@@ -129,6 +130,13 @@ const router=useRouter();
                 </p>
                 <p className="para2">FLB proprietary Blend negligible 3-MCPD and GE content is safe for children and keep the consumption level below safety limits for the infants solely feeding on infant.
                 </p>
+            </div>
+            <div className="col">
+                <Image  unoptimized src={oilcan} className="imggg" alt="Leadership illustration"></Image>
+                <h4 className="prodhead">Cooking Oil</h4>
+                <p className="para2">Brahmola ideal combination of fatty acids makes it a go to choice for the healthy cooking application and available in retails as Healthy Cooking Oil.  
+                </p>
+                
             </div>
             
         </div>

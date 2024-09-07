@@ -128,9 +128,7 @@ const Pe = () => {
               />
             <h2>Partners</h2>
                 <p>
-                    Lab Partner : University of Calgary & National Research Council.<br></br> <br></br>
-                    Funding Partners: We are grateful to funding partners MITACS, Biotalent, IRAP, ERIN to provide non-dilutive grants of $250,000.<br></br> <br></br>
-                    We are looking for industry partners to commercialise Brahmola for various edible and  Industrial applications.
+                Brahmola is result of partnership among Farmer&apos;s Legacy Biotech, University of Calgary and National Research Council. FLB is partnering with Academia, Industry and Government to commercialize Brahmola . As we move forward we are looking for partners that bring further expertise in plant breeding, seed multiplication, seed marketing and commercialization. We are committed to be transparent in dealing with our partners and share the created value as per the contribution.
 
                 <br></br> <br></br>   
                 </p>
@@ -144,7 +142,7 @@ const Pe = () => {
               />
             <h2>Investors</h2>
                 <p>
-                We are looking for pre-seed investment in FLB to undertake field trials to receive Canadian Food Inspection Agency approval and develop further applications of Brahmola.
+                FLB has survived on Friends and Family round from 2021 to 2024. FLB has raised  F&F round and non-dilutive grants from the government to support last three years of its operations. We are thankful to friends, family and government helps FLB creating positive change in the world. FLB is looking for Pre-seed Investment from Angel Investors or Venture Capitalist firm who share similar values to FLB.
                 <br></br> <br></br>  
                 </p>
             </div>

@@ -84,7 +84,7 @@ const Team = () => {
         <h2>Dr. Marcus Samuel</h2>
         {showMore1 ? (
           <p>
-            Dr. Marcus Samuel is Professor in Department of Biological Sciences & Academic Director of the Greenhouse, at Integrative Cell Biology (Plant Biology), University of Calgary and CSO of AgGene. He is Co-founder and Partner with Farmer&apos;s Legacy Biotech. Dr. Samuel leads Plant Transformation and Partnership Development on Breeding side of FLB&apos;s Business.
+           Dr. Marcus Samuel is Professor in Department of Biological Sciences & Academic Director of the Greenhouse, at Integrative Cell Biology (Plant Biology), University of Calgary and CSO of AgGene.  He is Co-founder and Partner with Farmer&apos;s Legacy Biotech. Dr. Samuel leads Plant Transformation and Partnership Development on Breeding side of FLB's Business.
             <br /> <br />
             <button className="btnn" onClick={toggleShowMore1}>Show Less</button>
           </p>
@@ -98,7 +98,7 @@ const Team = () => {
         <h2>Pankaj Purwar</h2>
         {showMore2 ? (
           <p>
-            Pankaj Purwar is co-founder and CEO of Farmer&rsquo;s Legacy Biotech. Pankaj Purwar has completed Bachelor in Chemical Technology from Harcourt Butler Technological Institute and MBA in Entrepreneurship from University of Victoria. Pankaj has worked for 7 years in multinationals as Marico and Unilever in Process and Product Development. Pankaj leads technology commercialization, fund raising, partnerships and Business development initiative for Farmer&rsquo;s Legacy Biotech.
+            Pankaj Purwar is co-founder and CEO of Farmer&apos;s Legacy Biotech. Pankaj Purwar  has completed Bachelor in Chemical Technology from Harcourt Butler Technological Institute and MBA in Entrepreneurship from University of Victoria. Pankaj has worked for 7 years in multinationals as Marico and Unilever in Process and Product Development. Pankaj leads technology commercialization, fund raising, partnerships and Business development initiative for Farmer&apos;s Legacy Biotech.
             <br /> <br />
             <button className="btnn" onClick={toggleShowMore2}>Show Less</button>
           </p>
@@ -110,18 +110,18 @@ const Team = () => {
 
     <section className="hed144">
         <h2 style={{ color: "rgb(66, 66, 66)"  }}>
-        Currently, FLB has a Plant Transformation Scientist as a paid position. We are actively seeking to expand our team by hiring an Agronomy Specialist, a Chemical Technologist, and a Sales and Marketing Specialist.
+        FLB has a team with right talent. FLB fractional resource model allows FLB using world class resources on sharing basis to keep operational cost low. Our team comprises expertise from Biotechnology, Agriculture, Edible Oil processing and application, and Product Commercialisation. The co-founding members Dr. Marcus Samuel and Pankaj Purwar holds MBAs and PHDs from prestigious universities with varied experience ranging from academia, R&D and Industry. We have technical advisors with vast experience in setting technology start-ups.
         </h2>
       </section>
 
 
 
-      <section className="hed145">
+      {/* <section className="hed145">
         <h1 style={{ color: "rgb(66, 66, 66)"  }}> where we are</h1>
         <h2 style={{ color: "rgb(66, 66, 66)"  }}>
         Farmer&apos;s Legacy Biotech (FLB) has successfully raised $250K for seed development. We are currently in the process of raising a total of $500K, with $250K contributed by investors and an additional $250K from government funding. In $500k- $200K for seed commercialization: This involves obtaining approval from the Canadian Food Inspection Agency (CFIA), with the Industrial Research Assistance Program (IRAP) already committing $100K towards this effort.$200K for product development: This will support the development of multiple applications of Brahmola, backed by relevant data and experimental results.$100K for product marketing: This funding will be used to promote Brahmola and its applications
         </h2>
-      </section>
+      </section> */}
 
 
 
