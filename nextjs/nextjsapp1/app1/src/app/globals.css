@@ -934,6 +934,9 @@ margin-top: 10px;
   margin-top: 10px;
    
   }
+  .partnersAndInversorshome .crophome2{
+    margin-top: 2vh;
+  }
   .partnersAndInversorshome .colhome{
     width: fit-content;
     height: fit-content;
@@ -965,7 +968,7 @@ margin-top: 10px;
   .cardcontainerourproductshome{
     margin-top: 3vh;
   }
-  
+
   .crophome{
     width: 100%;
     height: auto;
