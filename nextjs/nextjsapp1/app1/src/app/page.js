@@ -265,9 +265,9 @@ export default function Home() {
 
             <div className="cardhome3">
               <div className="cardcontenthome3">
-                <h3> Our Values</h3>
+                <h3> Our Vision</h3>
                 <p>Our values define our actions, and we lead by LEAP.</p>
-                <button onClick={()=>{router.push(`./about2`)}}> Read more</button>
+                <button onClick={()=>{router.push(`./vision`)}}> Read more</button>
                 
               </div>
             </div>
@@ -338,6 +338,7 @@ export default function Home() {
           </div>
 
           <div className="ourproductshome">
+
             <h1> Our Products </h1>
             <div className="rowhome">
               <div className="cardcontainerourproductshome">
@@ -345,13 +346,16 @@ export default function Home() {
                   <Image unoptimized src={crophome} className="crophome" alt="Leadership illustration"></Image>
                 </div>
                 <div className="colhome2">
-                  <div>
-                    <button onClick={()=>{router.push(`../products`)}}> know more </button>
+                 <div className="pt">
+                    <h2> Product </h2>
                   </div>
                   <p>
                     {" "}
                     Seeds: FLB has repurposed Canola seeds, naming it Brahmola that has optimum characteristics for human consumption and industry requirements. Brahmola&apos;s  Saturated fatty acid,  Monounsaturated Fatty Acid and Polyunsaturated Fatty Acid is near to WHO recommended ratio of 1:1.3:1 making it ideal oil for human consumption with multiple edible and industrial applications. These numerous applications will able to diversify the current usage and reduce reliance on a few markets for Canola. 
                   </p>
+                  <div>
+                    <button onClick={()=>{router.push(`../products`)}}> know more </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -365,24 +369,26 @@ export default function Home() {
                   <Image  unoptimized src={pe} className="crophome2" alt="Leadership illustration"></Image>
                 </div>
                 <div className="colhome2">
-                <div>
-                    <button onClick={()=>{router.push(`../p_e`)}}> know more </button>
-                  </div>
+                
                   <div className="pt">
                     <h2> Partners </h2>
                   </div>
                   <p>
                     {" "}
-                    We are looking for partners who share similar values as that of ours. We are looking for expertise in plant breeding, seed multiplication, and seed marketing. We will be connecting with various partners as per the life cycle of our company. We are committed to be transparent in dealing with our partners and share the created value as per contribution to value creation.
+                    Brahmola is result of partnership among Farmer&apos;s Legacy Biotech, University of Calgary and National Research Council. FLB is partnering with Academia, Industry and Government to commercialize Brahmola . As we move forward we are looking for partners that bring further expertise in plant breeding, seed multiplication, seed marketing and commercialization. We are committed to be transparent in dealing with our partners and share the created value as per the contribution.
                   </p>
                   <div className="inv">
                     <h2> Investors </h2>
                   </div>
                   <p>
                     {" "}
-                    We are looking for partners who share similar values as that of ours. We are looking for expertise in plant breeding, seed multiplication, and seed marketing. We will be connecting with various partners as per the life cycle of our company. We are committed to be transparent in dealing with our partners and share the created value as per contribution to value creation.
+                    FLB has survived on Friends and Family round from 2021 to 2024. FLB has raised  F&F round and non-dilutive grants from the government to support last three years of its operations. We are thankful to friends, family and government helps FLB creating positive change in the world. FLB is looking for Pre-seed Investment from Angel Investors or Venture Capitalist firm who share similar values to FLB.
                   </p>
+                  <div>
+                    <button onClick={()=>{router.push(`../p_e`)}}> know more </button>
+                  </div>
                 </div>
+                
                 
               </div>
               

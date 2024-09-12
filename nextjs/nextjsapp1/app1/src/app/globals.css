@@ -856,6 +856,7 @@ color: rgb(255, 255, 255);
   align-items: center;
   justify-content: center;
   margin-bottom: 80px;
+
 }
 .ourproductshome h3{
   color: rgb(44, 44, 44);
@@ -878,10 +879,10 @@ margin-top: 10px;
 
 }
 .ourproductshome .colhome2 p{
-  font-size: 20px;
+  font-size: 1.6vmin;
   width: 40vw;
   color: #4f6550;
-  padding-top: 20px;
+  padding-top: 1.5vh;
 }
 .ourproductshome .colhome2 button{
   display: inline-block;
@@ -905,18 +906,16 @@ margin-top: 10px;
   width: 40vw;
   height: 35vh;
 }
+
 .ourproductshome .colhome p{
   padding: 2vw;
   padding-top: 5vh;
+  
   width: auto;
   height: auto;
 }
 .cardcontainerourproductshome{
-  margin-top: 3vh;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 8px;
   }
 
   .partnersAndInversorshome{
@@ -948,12 +947,12 @@ margin-top: 10px;
     padding: 1.1vw;
     height: max-content;
     padding-left: 1.5vw;
-    margin-top: 0px;
+    margin-top: 2vh;
     padding-top: 0px;
   }
   .partnersAndInversorshome .colhome2 p{
     color: #4f6550;
-    font-size: 2vmin;
+    font-size: 1.6vmin;
     width: 40vw;
     padding-top: 10px;
     margin-bottom: 2.5vh;
@@ -1215,6 +1214,18 @@ margin-top: 10px;
   .searchinput {
     width: 80%; /* Reduce width */
   }
+  .cardcontainerourproductshome{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  .cardcontainerourproductshome .pt{
+    align-items: center;
+    text-align: center;
+  }
   .roww {
     margin: 10vw;
     display: block;
@@ -1446,11 +1457,10 @@ margin-top: 10px;
     margin-right: 10px;
     width: auto;
   }
-
-  .searchinput {
-    width: 300px; /* Maintain original width */
+  .cardcontainerourproductshome{
+    width:75vw;
   }
- 
+
 }
 
 
