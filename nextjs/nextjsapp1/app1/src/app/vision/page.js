@@ -9,7 +9,7 @@ import pers from "../../../public/images/pers.webp"
 import Enquiry from "../enq/enquiry";
 import "./about2.css";
 
-const vision = () => {
+const Vision = () => {
     const router = useRouter();
     return(
         <div className="main">
@@ -213,7 +213,7 @@ const vision = () => {
 </div> 
     )
 }  
-export default vision;
+export default Vision;
 
 
 
