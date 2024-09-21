@@ -651,7 +651,49 @@ color: rgb(255, 255, 255);
   margin-top: 10px;
   margin-bottom: 80px;
 }
+.aimc{
+  margin: 20px;
+  position: relative; /* Ensure child elements are positioned relative to this */
+ 
+  background-image: url("../../public/images/aimc.jpg");
+ 
+  background-size: cover; /* Cover entire div */
+  background-position: center; /* Center the background image */
+  color: white; /* Text color for better visibility on image background */
+  overflow: hidden; /* Prevent content from overflowing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional shadow for better look */
+  width:64vw;
+  height: auto;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  transition: transform 0.3s ease; /* Smooth transition on hover */
+  text-align: center;
+}
+.aimc1{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  padding: 16px;
+  
+  padding-top: 8px;
+}
+.aimc1 p{
+  margin-top: 1.5rem;
+  font-size: 2.5vmin;
+  color: rgb(255, 255, 255);
+}
+.aimc h3{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  font-size: 3vmin;
+  padding: 10px;
+  color: rgb(239, 239, 239);
 
+}
 .aboutushome .cardhome1 {
  
   margin: 20px;
@@ -758,7 +800,7 @@ color: rgb(255, 255, 255);
   justify-self: center;
   font-size: 3vmin;
   padding: 10px;
-  color: rgb(116, 116, 116);
+  color: rgb(255, 255, 255);
 
 }
 .aboutushome  .cardhome2 .cardcontenthome2 h3{
@@ -768,7 +810,7 @@ color: rgb(255, 255, 255);
   justify-self: center;
   font-size: 3vmin;
   padding: 10px;
-  color: rgb(116, 116, 116);
+  color: rgb(247, 247, 247);
 
 }
 .aboutushome  .cardhome3 .cardcontenthome3 h3{
@@ -778,7 +820,7 @@ color: rgb(255, 255, 255);
   justify-self: center;
   font-size: 3vmin;
   padding: 10px;
-  color: rgb(116, 116, 116);
+  color: rgb(255, 255, 255);
 
 }
 .aboutushome .cardhome1 .cardcontenthome1 button{

@@ -240,34 +240,45 @@ export default function Home() {
 
         <div className="aboutushome">
           <h1> About Us </h1>
+
+          <div className="aimc">
+                <div className="aimc1">
+                  <h3>Aim</h3>
+                  <p>Oil is best source of energy for our body providing 9cal/gm higher than proteins and carbohydrates. Oils help in absorption of vitamins A, D, E and K and other micronutrients in the body. Unfortunately, vegetable oil has become a feedstock of biofuel and kept the global oil prices higher and kept oil out of reach of major global population and resulting in massive malnutrition, deforestation and biodiversity loss. FLB aim is to reverse this trend and make Canola continue to be heathy oil for human consumption rather than feed stock for biofuel and help the world save environment and biodiversity. This is only possible by making Canola multi-application oils that can easily find the global oil markets for human consumption. </p>
+                  {/* <button onClick={()=>{router.push(`./about2`)}}> Read more</button> */}
+                  
+                </div>
+              </div>
           
           <div className="cardcontainerhome1">
+            
+
             <div className="cardhome1">
               <div className="cardcontenthome1">
-                <h3>Our Aim</h3>
-                <p>New challenges and using novel technologies</p>
-                <button onClick={()=>{router.push(`./about2`)}}> Read more</button>
+                <h3>Mission</h3>
+                <p>Our mission is to introduce multifunctional medium chain fatty acids acid in Canola. We achieved our objective with Academic, Industry and Government Collaboration and our unconventional Business model that believes in benefitting every stakeholder in the Canola Industry from Consumers, Breeders, and Farmers to Processors.</p>
+                {/* <button onClick={()=>{router.push(`./about2`)}}> Read more</button> */}
                 
               </div>
             </div>
 
             <div className="cardhome2">
               <div className="cardcontenthome2">
-                <h3> Our Purpose</h3>
+                <h3> Purpose</h3>
                 <p>
                   At Farmer&apos;s Legacy Biotech, we are excited about the limitless
                   possibilities
                 </p>
-                <button onClick={()=>{router.push(`./about2`)}}> Read more</button>
+                {/* <button onClick={()=>{router.push(`./about2`)}}> Read more</button> */}
                
               </div>
             </div>
 
             <div className="cardhome3">
               <div className="cardcontenthome3">
-                <h3> Our Vision</h3>
+                <h3> Vision</h3>
                 <p>Our values define our actions, and we lead by LEAP.</p>
-                <button onClick={()=>{router.push(`./vision`)}}> Read more</button>
+                <button onClick={()=>{router.push(`./vision`)}}> Learn more</button>
                 
               </div>
             </div>
@@ -294,7 +305,7 @@ export default function Home() {
                   className="btn"
                   onClick={() => router.push(`../sustainablity`)}
                 >
-                  Read more
+                  Learn more
                 </button>
                 </div>
               </div>
@@ -312,7 +323,7 @@ export default function Home() {
                   className="btn"
                   onClick={() => router.push(`../sustainablity`)}
                 >
-                  Read more
+                  Learn more
                 </button>
                 </div>
               </div>
@@ -330,7 +341,7 @@ export default function Home() {
                   className="btn"
                   onClick={() => router.push(`../sustainablity`)}
                 >
-                  Read more
+                  Learn more
                 </button>
                 </div>
               </div>
@@ -354,7 +365,7 @@ export default function Home() {
                     Seeds: FLB has repurposed Canola seeds, naming it Brahmola that has optimum characteristics for human consumption and industry requirements. Brahmola&apos;s  Saturated fatty acid,  Monounsaturated Fatty Acid and Polyunsaturated Fatty Acid is near to WHO recommended ratio of 1:1.3:1 making it ideal oil for human consumption with multiple edible and industrial applications. These numerous applications will able to diversify the current usage and reduce reliance on a few markets for Canola. 
                   </p>
                   <div>
-                    <button onClick={()=>{router.push(`../products`)}}> know more </button>
+                    <button onClick={()=>{router.push(`../products`)}}> Learn more </button>
                   </div>
                 </div>
               </div>
@@ -385,7 +396,7 @@ export default function Home() {
                     FLB has survived on Friends and Family round from 2021 to 2024. FLB has raised  F&F round and non-dilutive grants from the government to support last three years of its operations. We are thankful to friends, family and government helps FLB creating positive change in the world. FLB is looking for Pre-seed Investment from Angel Investors or Venture Capitalist firm who share similar values to FLB.
                   </p>
                   <div>
-                    <button onClick={()=>{router.push(`../p_e`)}}> know more </button>
+                    <button onClick={()=>{router.push(`../p_e`)}}> Learn more </button>
                   </div>
                 </div>
                 
@@ -405,7 +416,7 @@ export default function Home() {
             <p>
               Technology is evolving, so is the threat from global climate
               change. New challenges and using novel technologies to solve these
-              challenges excite us at Farmer’s Legacy Biotech.
+              challenges excite us at Farmer&apos;s Legacy Biotech.
             </p>
           </div>
          
@@ -423,7 +434,7 @@ export default function Home() {
         <div className="copyright">
           <h2 className="cprt1">Copyright by </h2>
 
-          <h2 className="cprt">Canadian Legacy Biotech</h2>
+          <h2 className="cprt">Farmer&apos;s Legacy Biotech</h2>
         </div>
       </div>
     </div>

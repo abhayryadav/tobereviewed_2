@@ -80,8 +80,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* animation: changeimage 30s linear infinite ;
-    animation-delay: 9s; */
+    
   
   }
   /* @keyframes changeimage {
@@ -223,11 +222,12 @@
     text-align: center;
     padding-bottom: 2vmin;
   }
-  .innerr p{
+ 
+  .paras{
     color: rgb(66, 66, 66);
     padding: 1%;
     padding-left: 2%;
-    font-size: 0.5 vw;
+    font-size: 1.3vw;
   }
 /*  
   .main{

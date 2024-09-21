@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
-import milk from "../../../public/images/milk.jpg";
-import oilll from "../../../public/images/oilll.jpg";
+import milk from "../../../public/images/image1.png";
+import oilll from "../../../public/images/image.png";
 import oilcan from "../../../public/images/oilcan.png";
 import { useRouter } from "next/navigation";
 import "./products.css";
@@ -16,14 +16,14 @@ const router=useRouter();
             <div className="divhome2" id="inner2">
               <h2
                 className="cheading"
-                style={{ fontFamily: "Open Sans", color: "white" }}
+                style={{ fontFamily: "Open Sans", color: "black" }}
               >
                 {" "}
                 FLB
               </h2>
               <p
                 className="cbheading"
-                style={{ fontFamily: "Open Sans", color: "white" }}
+                style={{ fontFamily: "Open Sans", color: "grey" }}
               >
                 {" "}
                 Farmer Legacy  Biotech{" "}
@@ -87,10 +87,10 @@ const router=useRouter();
         {/* <Image src={menu} className="menubtn" alt="Menu button" onClick={navtoggle} /> */}
       </nav>
       <div className="header">
-        <div className="headercontent">
+        {/* <div className="headercontent">
           <h2>Products we are offering</h2>
           <div className="line"></div>
-          {/* <h1>barmohla </h1> */}
+          
           <center>
               <div className="headerproddata">
               <p>
@@ -99,11 +99,11 @@ const router=useRouter();
             </div>
           </center>
           
-        </div>
+        </div> */}
       </div>
         <section className="title">
             <h1>
-                Current Products
+            Brahmola Application
             </h1>
             <div className="line">
 
@@ -168,7 +168,7 @@ const router=useRouter();
             <div className="copyright">
                   <h2 className="cprt1">Copyright by </h2> 
                   
-                  <h2 className="cprt">Canadian Legacy Biotech</h2>
+                  <h2 className="cprt">Farmer&apos;s Legacy Biotech</h2>
             </div>
           </div>
 

@@ -468,12 +468,10 @@
   .inner2.expanded {
     max-height: fit-content; 
   }
-  .inner1.expanded p{
-    width: 40vw;
-  }
-  .inner2.expanded p{
-    width: 40vw;
-  }
+ .inner1 p, .inner2 p {
+  margin: 0; /* Remove default margin */
+  padding: 0 1vmin; /* Add slight padding for text */
+}
   .im {
     border-radius: 50%;
     width: 100%;
@@ -525,6 +523,7 @@
   width: 90%;
   text-align: start;
 }
+
 }
 
 
@@ -738,3 +737,86 @@
   }
 
 }
+
+
+@media (min-width: 1223px) {
+  /* Paragraph Styling */
+  .ppps {
+    font-size: 1.5rem; /* Consistent font size across devices */
+  }
+
+  /* Header Styling */
+  .hed144 h2, .hed144 h1 {
+    font-size: 20px; /* Consistent font size */
+    padding-left: 15vmin; /* Space on sides for better alignment */
+    padding-right: 15vmin;
+  }
+
+  /* Responsive Text Container */
+  .hed145 {
+    width: auto; /* Allows it to adjust naturally */
+    padding-left: 5vmin; /* Smaller padding for smaller screens */
+    padding-right: 5vmin;
+    text-align: center; /* Center-align text */
+  }
+
+  .hed145 h2, .hed145 h1 {
+    font-size: 20px; /* Ensure readability */
+    padding-left: 15vmin; /* Consistent padding for visual balance */
+    padding-right: 15vmin;
+  }
+
+  /* Flexbox Row Configuration */
+  .roww {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items in the column */
+  }
+
+  /* Columns Configuration */
+  .colll1, .colll2, .colll3 {
+    width: 90%; /* Almost full width to fit within container */
+    text-align: center; /* Center text for consistency */
+  }
+
+  .inner1, .inner2 {
+    border-radius: 2vmin;
+    /* position: relative; */
+    /* position: absolute; */
+    margin: 2%;
+    background-color: rgba(255, 255, 255, 0);
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Smooth transition for height and opacity */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.179); */
+    text-align: center;
+    padding: 2vmin;
+    overflow: hidden; 
+    max-height: 60vh;
+    width: 28%;
+  
+    overflow: visible; /* Ensure content isn’t hidden */
+    max-height: none;
+  }
+
+  .inner1 h2, .inner2 h2 {
+    padding-top: 3vmin; /* Top padding for spacing */
+    color: rgb(1, 63, 1); /* Text color */
+    font-weight: 200; /* Light font weight */
+    text-align: center; /* Center-align headers */
+    padding-bottom: 2vmin; /* Bottom padding for spacing */
+  }
+
+  /* Paragraph Styling within Inner Containers */
+  .inner1 p, .inner2 p {
+    color: rgb(92, 92, 92); /* Text color */
+    font-size: 2vh; /* Font size relative to viewport height */
+    opacity: 1; /* Always visible */
+  }
+
+  /* Remove button styling for larger screens */
+  .btnn {
+    display: none;
+  }
+}
+

@@ -207,7 +207,7 @@ const Vision = () => {
             <div className="copyright">
                   <h2 className="cprt1">Copyright by </h2> 
                   
-                  <h2 className="cprt">Canadian Legacy Biotech</h2>
+                  <h2 className="cprt">Farmer&apos;s Legacy Biotech</h2>
             </div>
           </div>
 </div> 

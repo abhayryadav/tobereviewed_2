@@ -2,11 +2,13 @@
     color: rgb(255, 255, 246);
     margin: 0;
     padding: 0;
+    
 }
 .main{
     background-color: white;
 }
-.header{
+
+/* .header{
     width:100vw;
     height: 100vh;
     background-image: url('../../../public/images/oil.jpeg');
@@ -15,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .headercontent{
     color: rgb(255, 255, 255);
@@ -54,7 +56,8 @@
 }
 
 .navbar{
-    position: absolute;
+    background-color: rgb(255, 255, 255);
+    position: relative;
     top: 0;
     left: 0;
     display: flex;
@@ -64,6 +67,7 @@
     padding: 20px;
     padding-right: 0;
     padding-top: 10px;
+    
     color: whitesmoke;
 
 }
@@ -91,7 +95,7 @@ ul{
     flex: 1 1 auto; 
   min-width: 100px; /* Adjust as needed */
   box-sizing: border-box;
- 
+  
   float: left;
   list-style: none;
    
@@ -112,9 +116,12 @@ section{
     margin: 80px auto;
 }
 .title{
+  background-color: white;
+    margin-top: 0vh;
     text-align: center;
     font-size: 4vmin;
     align-items: center;
+    margin-bottom: 00px;
     justify-content: space-between;
 
 
@@ -126,6 +133,7 @@ section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 110px;
 }
 .col{
     width:325px;
@@ -360,7 +368,7 @@ section{
   
     .navbar ul {
        
-        margin-top: 50vh;
+        /* margin-top: 50vh; */
         flex-direction: column;
         padding: 0;
         align-items: center;
@@ -388,19 +396,19 @@ section{
       width: 90%;
       margin: 10px 0;
     }
-    .title{
+    /* .title{
         margin-top: 70vh;
-    }
+    } */
     .title h1 {
       font-size: 5vmin;
     }
-    .headercontent{
+    /* .headercontent{
         margin-top: 50px;
         width: 100vw;
         align-items: center;
         justify-content: center;
         justify-items: center;
-    }
+    } */
     .headercontent h2{
         margin-top: 30px;
         align-items: center;

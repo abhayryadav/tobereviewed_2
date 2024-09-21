@@ -148,29 +148,8 @@ const Pe = () => {
             </div>
 
         </section>
-        {/* /////////////////////////////////////////for images */}
-        <section className="sec3">
-
-            <div className="innerc">
-            <Image 
-            unoptimized
-              className="imfc"
-              src={calg}
-              alt="Leadership illustration"
-              />
-            
-            </div>
-            {/* <div className="inner">
-            <Image 
-            unoptimized
-              className="imf"
-                src={pers}
-                alt="Leadership illustration"
-              />
-            
-            </div> */}
-
-        </section>
+        
+       
 
           <div className="info">
             <div className="roww">
@@ -202,7 +181,7 @@ const Pe = () => {
             <div className="copyright">
                   <h2 className="cprt1">Copyright by </h2> 
                   
-                  <h2 className="cprt">Canadian Legacy Biotech</h2>
+                  <h2 className="cprt">Farmer&apos;s Legacy Biotech</h2>
             </div>
           </div>
 </div> 
