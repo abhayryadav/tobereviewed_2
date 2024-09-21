@@ -691,7 +691,7 @@ color: rgb(255, 255, 255);
   justify-self: center;
   font-size: 3vmin;
   padding: 10px;
-  color: rgb(239, 239, 239);
+  color: rgb(59, 59, 59);
 
 }
 .aboutushome .cardhome1 {
@@ -800,7 +800,7 @@ color: rgb(255, 255, 255);
   justify-self: center;
   font-size: 3vmin;
   padding: 10px;
-  color: rgb(255, 255, 255);
+  color: rgb(59, 59, 59);
 
 }
 .aboutushome  .cardhome2 .cardcontenthome2 h3{
@@ -810,7 +810,7 @@ color: rgb(255, 255, 255);
   justify-self: center;
   font-size: 3vmin;
   padding: 10px;
-  color: rgb(247, 247, 247);
+  color: rgb(59, 59, 59);
 
 }
 .aboutushome  .cardhome3 .cardcontenthome3 h3{
@@ -820,7 +820,7 @@ color: rgb(255, 255, 255);
   justify-self: center;
   font-size: 3vmin;
   padding: 10px;
-  color: rgb(255, 255, 255);
+  color: rgb(59, 59, 59);
 
 }
 .aboutushome .cardhome1 .cardcontenthome1 button{
@@ -1200,7 +1200,10 @@ margin-top: 10px;
     align-items: center; /* Center align */
     
   }
-
+  .aimc{
+    width: 90vw; /* Almost full width */
+    margin: 10px 0; /* Space between cards */
+  }
   .aboutushome .cardhome1,
   .aboutushome .cardhome2,
   .aboutushome .cardhome3 {

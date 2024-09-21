@@ -103,18 +103,18 @@ const Team = () => {
 
      
 
-      <section className="sec2">
+  {/* <section className="sec2">
   <div className={`inner1 ${showMore1 && windowWidth <= 1223 ? 'expanded' : ''}`}>
     <Image unoptimized className="im" src={dmss} alt="Leadership illustration" />
     <h2>Dr. Marcus Samuel</h2>
     {windowWidth > 1223 ? (
-      // When window size is greater than 1223px, always show the paragraph
+     
       <p>
         Dr. Marcus Samuel is Professor in Department of Biological Sciences & Academic Director of the Greenhouse, at Integrative Cell Biology (Plant Biology), University of Calgary and CSO of AgGene. He is Co-founder and Partner with Farmer&apos;s Legacy Biotech. Dr. Samuel leads Plant Transformation and Partnership Development on Breeding side of FLB&apos;s Business.
         <br /><br />
       </p>
     ) : (
-      // Show the paragraph only if "Show More" is clicked on smaller screens
+     
       showMore1 && (
         <p>
           Dr. Marcus Samuel is Professor in Department of Biological Sciences & Academic Director of the Greenhouse, at Integrative Cell Biology (Plant Biology), University of Calgary and CSO of AgGene. He is Co-founder and Partner with Farmer&apos;s Legacy Biotech. Dr. Samuel leads Plant Transformation and Partnership Development on Breeding side of FLB&apos;s Business.
@@ -123,7 +123,7 @@ const Team = () => {
       )
     )}
 
-    {/* Show buttons only when window size <= 1223px */}
+    
     {windowWidth <= 1223 && (
       showMore1 ? (
         <button className="btnn" onClick={toggleShowMore1}>Show Less</button>
@@ -137,13 +137,13 @@ const Team = () => {
     <Image unoptimized className="im" src={conimg} alt="Leadership illustration" />
     <h2>Pankaj Purwar</h2>
     {windowWidth > 1223 ? (
-      // Always show the paragraph when window size is greater than 1223px
+     
       <p>
         Pankaj Purwar is co-founder and CEO of Farmer&apos;s Legacy Biotech. Pankaj Purwar has completed Bachelor in Chemical Technology from Harcourt Butler Technological Institute and MBA in Entrepreneurship from University of Victoria. Pankaj has worked for 7 years in multinationals as Marico and Unilever in Process and Product Development. Pankaj leads technology commercialization, fund raising, partnerships and Business development initiative for Farmer&apos;s Legacy Biotech.
         <br /><br />
       </p>
     ) : (
-      // Show the paragraph only if "Show More" is clicked on smaller screens
+     
       showMore2 && (
         <p>
           Pankaj Purwar is co-founder and CEO of Farmer&apos;s Legacy Biotech. Pankaj Purwar has completed Bachelor in Chemical Technology from Harcourt Butler Technological Institute and MBA in Entrepreneurship from University of Victoria. Pankaj has worked for 7 years in multinationals as Marico and Unilever in Process and Product Development. Pankaj leads technology commercialization, fund raising, partnerships and Business development initiative for Farmer&apos;s Legacy Biotech.
@@ -152,7 +152,7 @@ const Team = () => {
       )
     )}
 
-    {/* Show buttons only when window size <= 1223px */}
+  
     {windowWidth <= 1223 && (
       showMore2 ? (
         <button className="btnn" onClick={toggleShowMore2}>Show Less</button>
@@ -161,8 +161,27 @@ const Team = () => {
       )
     )}
   </div>
-</section>
+</section> */}
 
+<section className="sec2">
+  <div className="inner1">
+    <Image unoptimized className="im" src={dmss} alt="Leadership illustration" />
+    <h2>Dr. Marcus Samuel</h2>
+    <p className="ppqp">
+      Dr. Marcus Samuel is Professor in Department of Biological Sciences & Academic Director of the Greenhouse, at Integrative Cell Biology (Plant Biology), University of Calgary and CSO of AgGene. He is Co-founder and Partner with Farmer&apos;s Legacy Biotech. Dr. Samuel leads Plant Transformation and Partnership Development on Breeding side of FLB&apos;s Business.
+      <br /><br />
+    </p>
+  </div>
+
+  <div className="inner2">
+    <Image unoptimized className="im" src={conimg} alt="Leadership illustration" />
+    <h2>Pankaj Purwar</h2>
+    <p className="ppqp">
+      Pankaj Purwar is co-founder and CEO of Farmer&apos;s Legacy Biotech. Pankaj Purwar has completed Bachelor in Chemical Technology from Harcourt Butler Technological Institute and MBA in Entrepreneurship from University of Victoria. Pankaj has worked for 7 years in multinationals as Marico and Unilever in Process and Product Development. Pankaj leads technology commercialization, fund raising, partnerships and Business development initiative for Farmer&apos;s Legacy Biotech.
+      <br /><br />
+    </p>
+  </div>
+</section>
 
 
 

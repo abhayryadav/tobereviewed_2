@@ -114,27 +114,23 @@ const router=useRouter();
       <div className="row">
             <div className="col">
                 <Image  unoptimized src={oilll} className="imggg" alt="Leadership illustration"></Image>
-                <h4 className="prodhead">Frying Oil</h4>
+                <h4 className="prodhead">Deep Frying Oil</h4>
                
-                  <p className="para1">Brahmola balanced SFA, MUFA and PUFA profile and resistant against oxidation make it suitable for deep frying application.
+                  <p className="para1">The deep frying industry typically relies on oils that are high in saturated or medium-chain fatty acids, such as palm oil and coconut oil, or high oleic oils that are rich in monounsaturated fatty acids. While high oleic oils offer a more sustainable and superior solution compared to hydrogenated oils and palm oil, they lack the health benefits provided by regular polyunsaturated fatty acid (PUFA) rich oils and coconut oil. Brahmola addresses this gap by offering the benefits of deep frying while maintaining a healthy fatty acid profile. In accelerated oxidative stability tests, Brahmola has been found to be superior to Cargill's high oleic canola oil, demonstrating its enhanced performance and stability for frying applications.
                   </p>
-                  <p className="para1">Brahmola is healthy deep frying Oil. You do not need to compromise on oil quality for good taste.
-                  </p>
-                
-                
+                 
             </div>
             <div className="col">
                 <Image  unoptimized src={milk} className="imggg" alt="Leadership illustration"></Image>
                 <h4 className="prodhead">Infant Formula</h4>
-                <p className="para2">FLB Proprietary Blend comprising of 80% Brahmola and 20% other Canadian Oil with  balanced SFA, MUFA and PUFA profile make it ideal Oil to be used for Infant formula Application simplifying current practice of using Palm Oil, Sunflower Oil and Soyabean Oil blend.  
+                <p className="para2">Brahmola has balanced fatty acid profile and is ideal to be used in Infant formula. Currently, Brahmola has low ratio of linoleic to alpha-linolenic acid of 2.5:1 where as Codex Alimentariuos requires it to be 5:1 to 15:1. FLB Proprietary Blend comprising of 80% Brahmola and 20% other Canadian Oil with balanced SFA, MUFA and PUFA profile and meeting all the requirements in codex alimentarious to be used in infant formula making FLB proprietary blend ideal to replace three or four oils blend currently used in Infant formula. Application of FLB proprietary blend will simplify current practice of using Palm Oil, Sunflower Oil and Soyabean Oil blend. FLB proprietary blend negligible 3-MCPD and GE content is safe for children and keep the consumption levels below safety limits for the infants solely feeding on infant formula.  
                 </p>
-                <p className="para2">FLB proprietary Blend negligible 3-MCPD and GE content is safe for children and keep the consumption level below safety limits for the infants solely feeding on infant.
-                </p>
+                
             </div>
             <div className="col">
                 <Image  unoptimized src={oilcan} className="imggg" alt="Leadership illustration"></Image>
                 <h4 className="prodhead">Cooking Oil</h4>
-                <p className="para2">Brahmola ideal combination of fatty acids makes it a go to choice for the healthy cooking application and available in retails as Healthy Cooking Oil.  
+                <p className="para2">Cooking needs requires oil to be capable of handling different cooking conditions like deep frying, shallow frying, salad dressing etc. There is no single oil available in the market that can be used for all these applications. Currently, nutritionists recommend using oils in rotation for cooking to nourish our body with multiple fatty acids as single oil is not capable of providing all fatty acids required for our body. Using different oils for various applications and use oil in rotation does not solve the challenge of providing balanced fatty acid nourishment to our body as our cooking and eating pattern varies every day. Brahmola, multifunctional oil solve this challenge as Brahmola is designed to handle all cooking conditions with balanced body enriching fatty acids ensuring body get the balanced nutrients irrespective of everyday cooking and eating pattern.
                 </p>
                 
             </div>

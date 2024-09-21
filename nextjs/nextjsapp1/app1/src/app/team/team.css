@@ -277,10 +277,10 @@
     max-height: 90vmin; 
   }
   
-  .inner1.expanded p, .inner2.expanded p {
-    opacity: 1; /* Show content when expanded */
+  /* .inner1.expanded p, .inner2.expanded p {
+    opacity: 1;
     font-size: 2vh;
-  }
+  } */
   
   .btnn {
     background-color: rgb(255, 255, 255);
@@ -345,7 +345,9 @@
   
     color: rgb(255, 255, 255);
   }
-
+.ppqp{
+  color: black;
+}
 
 .linee{
   width: 100%;
@@ -468,10 +470,12 @@
   .inner2.expanded {
     max-height: fit-content; 
   }
- .inner1 p, .inner2 p {
-  margin: 0; /* Remove default margin */
-  padding: 0 1vmin; /* Add slight padding for text */
-}
+  .inner1 p, .inner2 p {
+    color: rgb(92, 92, 92);
+    font-size: 2vh;
+    opacity: 1; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Fade in content */
+  }
   .im {
     border-radius: 50%;
     width: 100%;
@@ -495,7 +499,9 @@
   .im {
       height: 20vmin;
   }
-
+  .ppqp{
+    color: black;
+  }
   .roww {
       flex-direction: column;
       align-items: center;
@@ -569,8 +575,10 @@
   }
 
   .inner1 p, .inner2 p {
-    width: auto; /* Make sure paragraphs can expand to fit the content */
-    white-space: normal; /* Allow text to wrap */
+    color: rgb(92, 92, 92);
+    font-size: 2vh;
+    opacity: 1; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out; /* Fade in content */
   }
   .inner1{
     left: 10%;
