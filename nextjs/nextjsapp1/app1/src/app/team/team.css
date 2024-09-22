@@ -371,7 +371,13 @@
 .cprt{
   color:  rgb(255, 255, 255);
 }
-
+.ppqp{
+  text-align: justify; /* Ensures all lines align evenly */
+  line-height: 1.6; /* Adjusts the space between lines for better readability */
+  word-break: break-word; /* Handles long words or URLs */
+  margin: 0; /* Removes default margins */
+  padding: 0 10px; 
+}
 
 
 
@@ -529,6 +535,13 @@
   width: 90%;
   text-align: start;
 }
+.ppqp{
+  text-align: justify; /* Ensures all lines align evenly */
+  line-height: 1.6; /* Adjusts the space between lines for better readability */
+  word-break: break-word; /* Handles long words or URLs */
+  margin: 0; /* Removes default margins */
+  padding: 0 10px; 
+}
 
 }
 
@@ -624,6 +637,13 @@
 .colll1 p, .colll2 p, .colll3 p {
   width: 90%;
   text-align: start;
+}
+.ppqp{
+  text-align: justify; /* Ensures all lines align evenly */
+  line-height: 1.6; /* Adjusts the space between lines for better readability */
+  word-break: break-word; /* Handles long words or URLs */
+  margin: 0; /* Removes default margins */
+  padding: 0 10px; 
 }
 }
 
@@ -743,6 +763,13 @@
     cursor: pointer; /* Cursor pointer on hover */
     padding: 1vmin; /* Padding for size */
   }
+  .ppqp{
+    text-align: justify; /* Ensures all lines align evenly */
+    line-height: 1.6; /* Adjusts the space between lines for better readability */
+    word-break: break-word; /* Handles long words or URLs */
+    margin: 0; /* Removes default margins */
+    padding: 0 10px; 
+  }
 
 }
 
@@ -825,6 +852,17 @@
   /* Remove button styling for larger screens */
   .btnn {
     display: none;
+  }
+  .ppqp{
+    text-align: justify; /* Ensures all lines align evenly */
+    line-height: 1.6; /* Adjusts the space between lines for better readability */
+    word-break: break-word; /* Handles long words or URLs */
+    margin: 0; /* Removes default margins */
+    padding: 0 10px; 
+  }
+  .im{
+    width: 300px;
+    height: 300px;
   }
 }
 

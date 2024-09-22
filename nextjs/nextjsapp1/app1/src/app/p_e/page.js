@@ -15,8 +15,8 @@ import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 import leadership from "../../../public/images/leadership.png"
 import empathy from "../../../public/images/Empathy.webp"
-import ard from "../../../public/images/ard.webp"
-import pers from "../../../public/images/pers.webp"
+import imagesp from "../../../public/images/imagesp.jpeg"
+import investor from "../../../public/images/investor.webp"
 import Link from "next/link";
 import "./p_e.css";
 import Enquiry from "../enq/enquiry";
@@ -123,7 +123,7 @@ const Pe = () => {
             <Image 
             unoptimized
               className="imf"
-              src={ard}
+              src={imagesp}
               alt="Leadership illustration"
               />
             <h2>Partners</h2>
@@ -137,7 +137,7 @@ const Pe = () => {
             <Image 
             unoptimized
               className="imf"
-                src={pers}
+                src={investor}
                 alt="Leadership illustration"
               />
             <h2>Investors</h2>

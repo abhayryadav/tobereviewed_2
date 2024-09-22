@@ -1,8 +1,8 @@
 'use client';
 import Image from 'next/image';
 import milk from "../../../public/images/image1.png";
-import oilll from "../../../public/images/image.png";
-import oilcan from "../../../public/images/oilcan.png";
+import oilll from "../../../public/images/imagee.png";
+import oilppp from "../../../public/images/oilppp.jpg";
 import { useRouter } from "next/navigation";
 import "./products.css";
 import Enquiry from "../enq/enquiry";
@@ -128,7 +128,7 @@ const router=useRouter();
                 
             </div>
             <div className="col">
-                <Image  unoptimized src={oilcan} className="imggg" alt="Leadership illustration"></Image>
+                <Image  unoptimized src={oilppp} className="imggg" alt="Leadership illustration"></Image>
                 <h4 className="prodhead">Cooking Oil</h4>
                 <p className="para2">Cooking needs requires oil to be capable of handling different cooking conditions like deep frying, shallow frying, salad dressing etc. There is no single oil available in the market that can be used for all these applications. Currently, nutritionists recommend using oils in rotation for cooking to nourish our body with multiple fatty acids as single oil is not capable of providing all fatty acids required for our body. Using different oils for various applications and use oil in rotation does not solve the challenge of providing balanced fatty acid nourishment to our body as our cooking and eating pattern varies every day. Brahmola, multifunctional oil solve this challenge as Brahmola is designed to handle all cooking conditions with balanced body enriching fatty acids ensuring body get the balanced nutrients irrespective of everyday cooking and eating pattern.
                 </p>
