@@ -138,8 +138,12 @@ const About2 = () => {
               />
                 <h2>Leadership</h2>
                 <p>
-                At Farmer&apos;s Legacy Biotech, we are excited about the limitless possibility technology can offer for a better future.  We are a forward-thinking company that pride itself by working to address the challenges faced by Canadian Farmers. We drive our purpose from the challenges faced by Canadian farmers and use biotechnology to address these challenges. We will focus on finding inefficiencies in agriculture and develop solutions for them.
-                <br></br> <br></br>   Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer&apos;s Legacy Biotech.
+                  (1)	Take results personally and strive to drive the change.<br></br>
+                  (2)	Commit to the highest standard of work.<br></br>
+                  (3)	Engage in addressing the challenges rather than retreating from it.<br></br>
+                  (4)	Experiment with action in the face of uncertainty.<br></br>
+                  (5)	Focus on the big picture.<br></br>
+
                 </p>
             </div>
             <div className="innerab">
@@ -151,8 +155,12 @@ const About2 = () => {
               />
             <h2>Empathy</h2>
                 <p>
-                At Farmer&apos;s Legacy Biotech, we are excited about the limitless possibility technology can offer for a better future.  We are a forward-thinking company that pride itself by working to address the challenges faced by Canadian Farmers. We drive our purpose from the challenges faced by Canadian farmers and use biotechnology to address these challenges. We will focus on finding inefficiencies in agriculture and develop solutions for them.
-                <br></br> <br></br>   Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer’s Legacy Biotech.
+                (1)	Understand the pain points and desire to solve them.<br></br>
+                (2)	Build a workplace with diverse skills and talent.<br></br>
+                (3)	Empower stakeholders and partners to make decisions based on what they know.<br></br>
+                (4)	Flexible thought and flexible approach to partnering, help, and collaboration.<br></br>
+                (5)	Make everyone a partner in the organization&apos;s success.<br></br>
+
                 </p>
             </div>
 
@@ -168,8 +176,12 @@ const About2 = () => {
               />
             <h2>Ardent</h2>
                 <p>
-                At Farmer&apos;s Legacy Biotech, we are excited about the limitless possibility technology can offer for a better future.  We are a forward-thinking company that pride itself by working to address the challenges faced by Canadian Farmers. We drive our purpose from the challenges faced by Canadian farmers and use biotechnology to address these challenges. We will focus on finding inefficiencies in agriculture and develop solutions for them.
-                <br></br> <br></br>   Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer&apos;s Legacy Biotech.
+                (1)	Shape a vision to help steer the change effort and develop strategic initiatives to achieve it.<br></br>
+                (2)	Be ready, willing, and urgent to drive change.<br></br>
+                (3)	Direct energy towards the most important goals rather than spread it to various options.<br></br>
+                (4)	Remove obstacles to change and change systems for the achievement of the vision.<br></br>
+                (5)	Strive hard to consistently meeting or exceeding expectations.<br></br>
+
                 </p>
             </div>
             <div className="innerab">
@@ -181,8 +193,12 @@ const About2 = () => {
               />
             <h2>Persistent</h2>
                 <p>
-                At Farmer&apos;s Legacy Biotech, we are excited about the limitless possibility technology can offer for a better future.  We are a forward-thinking company that pride itself by working to address the challenges faced by Canadian Farmers. We drive our purpose from the challenges faced by Canadian farmers and use biotechnology to address these challenges. We will focus on finding inefficiencies in agriculture and develop solutions for them.
-                <br></br> <br></br>   Technology is evolving, so is the threat from global climate change. New challenges and using novel technologies to solve these challenges excite us at Farmer&apos;s Legacy Biotech.
+                (1)	Be resilient in the face of challenges and uncertainty.<br></br>
+                (2)	Consistently produce, track, evaluate, and celebrate small and large accomplishments.<br></br>
+                (3)	Generate practical and systematic approaches rather than being scattered or Adhoc.<br></br>
+                (4)	Focus on achieving outcomes unfazed by failures.<br></br>
+                (5)	Keep track of deliverables from every stakeholder.<br></br>
+
                 </p>
             </div>
 
