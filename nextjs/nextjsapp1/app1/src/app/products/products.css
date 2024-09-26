@@ -346,7 +346,7 @@ section{
 
 
 
-.roe .col p {
+.row .col p {
   text-align: justify; /* Ensures all lines align evenly */
     line-height: 1.6; /* Adjusts the space between lines for better readability */
     word-break: break-word; /* Handles long words or URLs */
