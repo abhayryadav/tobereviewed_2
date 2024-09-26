@@ -184,6 +184,11 @@
   }
   .innerab p{
     color: rgb(149, 149, 149);
+    text-align: justify; /* Ensures all lines align evenly */
+    line-height: 1.6; /* Adjusts the space between lines for better readability */
+    word-break: break-word; /* Handles long words or URLs */
+    margin: 0; /* Removes default margins */
+    padding: 0 10px; 
   }
 
   .imab{
@@ -249,6 +254,9 @@
   padding: 0.5vw;
   margin: 1%;
   text-align: start;
+}
+.paras{
+  word-break: normal;
 }
 .colll2, .colll3 {
     width: 20vw; 

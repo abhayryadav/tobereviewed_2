@@ -224,6 +224,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    align-items: stretch;
 
   }
   .inner1, .inner2 {
@@ -723,6 +724,7 @@
   }
 
   .inner2 {
+    
     right: 25%; /* Position it from the right */
   }
 
@@ -769,6 +771,9 @@
     word-break: break-word; /* Handles long words or URLs */
     margin: 0; /* Removes default margins */
     padding: 0 10px; 
+  }
+  .sec2{
+    align-items: stretch;
   }
 
 }
@@ -863,6 +868,9 @@
   .im{
     width: 300px;
     height: 300px;
+  }
+  .sec2{
+    align-items: stretch;
   }
 }
 

@@ -225,9 +225,12 @@
  
   .paras{
     color: rgb(66, 66, 66);
-    padding: 1%;
-    padding-left: 2%;
-    font-size: 1.3vw;
+    text-align: justify; /* Ensures all lines align evenly */
+    line-height: 1.6; /* Adjusts the space between lines for better readability */
+    word-break: break-word; /* Handles long words or URLs */
+    margin: 0; /* Removes default margins */
+    padding: 0 10px; 
+    font-size: 1.25vw;
   }
 /*  
   .main{
@@ -414,6 +417,13 @@ body {
   .cprt1, .cprt {
     font-size: 1.5vw;
   }
+  .paras{
+    text-align: justify; /* Ensures all lines align evenly */
+    line-height: 1.6; /* Adjusts the space between lines for better readability */
+    word-break: break-word; /* Handles long words or URLs */
+    margin: 0; /* Removes default margins */
+    padding: 0 10px; 
+  }
 }
 
 /* For tablets and medium screens (max-width: 1024px) */
@@ -549,8 +559,17 @@ body {
   .copyright {
     flex-direction: row;
   }
-
+  .paras{
+    word-break: break-all;
+  }
   .cprt1, .cprt {
     font-size: 1.25vw;
+  }
+  .paras{
+    text-align: justify; /* Ensures all lines align evenly */
+    line-height: 1.6; /* Adjusts the space between lines for better readability */
+    word-break: break-word; /* Handles long words or URLs */
+    margin: 0; /* Removes default margins */
+    padding: 0 10px; 
   }
 }

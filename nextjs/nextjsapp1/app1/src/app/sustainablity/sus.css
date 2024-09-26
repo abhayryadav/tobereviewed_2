@@ -226,6 +226,11 @@
     padding-bottom: 2vmin;
   }
   .inner1ss p{
+    text-align: justify; /* Ensures all lines align evenly */
+    line-height: 1.6; /* Adjusts the space between lines for better readability */
+    word-break: break-word; /* Handles long words or URLs */
+    margin: 0; /* Removes default margins */
+    padding: 0 10px; 
     color: rgb(149, 149, 149);
   }
   .inner2ss{
@@ -252,6 +257,11 @@
     padding-bottom: 2vmin;
   }
   .inner2ss p{
+    text-align: justify; /* Ensures all lines align evenly */
+    line-height: 1.6; /* Adjusts the space between lines for better readability */
+    word-break: break-word; /* Handles long words or URLs */
+    margin: 0; /* Removes default margins */
+    padding: 0 10px; 
     color: rgb(149, 149, 149);
   }
   .inner3ss{
@@ -276,6 +286,11 @@
     padding-bottom: 2vmin;
   }
   .inner3ss p{
+    text-align: justify; /* Ensures all lines align evenly */
+    line-height: 1.6; /* Adjusts the space between lines for better readability */
+    word-break: break-word; /* Handles long words or URLs */
+    margin: 0; /* Removes default margins */
+    padding: 0 10px; 
     color: rgb(149, 149, 149);
   }
 /*  
